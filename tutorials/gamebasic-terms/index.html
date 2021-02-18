@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>基础机制入门 - 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="基础游戏机制的讲解。">
+		<meta itemprop="name" content="基础机制入门">
+<meta itemprop="description" content="基础游戏机制的讲解。">
+
+<meta itemprop="wordCount" content="879">
+
+
+
+<meta itemprop="keywords" content="" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="基础机制入门"/>
+<meta name="twitter:description" content="基础游戏机制的讲解。"/>
+
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/voidpin/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-120519766-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/voidpin/images/QQ20210124-0.jpg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</div>
+					<div class="logo__tagline">voidpin.com 来自欧服的激战2中文攻略站。An EU based guide site for CN players.</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">菜单</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">游戏资讯</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/tutorials/">
+				
+				<span class="menu__text">新手上路</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/guides/">
+				
+				<span class="menu__text">游戏攻略</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pve/">
+				
+				<span class="menu__text">P V E</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pvp/">
+				
+				<span class="menu__text">竞 技</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/wvw/">
+				
+				<span class="menu__text">世界之战</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/builds/">
+				
+				<span class="menu__text">职业配装</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/files/">
+				
+				<span class="menu__text">文件下载</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">关于我们</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">基础机制入门</h1>
+			
+		</header><div class="content post__content clearfix">
+			<ul>
+<li><a href="#1-%e5%b8%b8%e7%94%a8%e6%b8%b8%e6%88%8f%e6%9c%af%e8%af%ad">1. 常用游戏术语</a></li>
+<li><a href="#2-%e4%bb%80%e4%b9%88%e6%98%af-cc-%e5%92%8c%e8%94%91%e8%a7%86%e6%9d%a1">2. 什么是 CC 和蔑视条</a>
+<ul>
+<li><a href="#21-%e4%bb%80%e4%b9%88%e6%98%af-cc">2.1. 什么是 CC</a>
+<ul>
+<li><a href="#211-%e7%a1%ac-cc">2.1.1. 硬 CC</a></li>
+<li><a href="#212-%e8%bd%af-cc">2.1.2. 软 CC</a></li>
+</ul>
+</li>
+<li><a href="#22-%e4%bb%80%e4%b9%88%e6%98%af%e8%94%91%e8%a7%86%e6%9d%a1">2.2. 什么是蔑视条</a></li>
+<li><a href="#23-%e6%88%91%e4%bb%80%e4%b9%88%e6%97%b6%e5%80%99%e8%af%a5-cc">2.3. 我什么时候该 CC</a></li>
+<li><a href="#24-%e6%88%91%e5%a6%82%e4%bd%95%e6%9b%b4%e5%bf%ab%e5%9c%b0-cc">2.4. 我如何更快地 CC</a></li>
+</ul>
+</li>
+<li><a href="#3-%e4%bb%80%e4%b9%88%e6%98%af%e7%bb%84%e5%90%88%e6%8a%80">3. 什么是组合技</a>
+<ul>
+<li><a href="#31-%e7%bb%84%e5%90%88%e6%8a%80%e5%8c%ba%e5%9f%9f%e5%92%8c%e7%bb%84%e5%90%88%e7%bb%88%e7%bb%93%e6%8a%80">3.1. 组合技区域和组合终结技</a></li>
+<li><a href="#32-%e7%bb%84%e5%90%88%e6%8a%80%e6%95%88%e6%9e%9c">3.2. 组合技效果</a></li>
+<li><a href="#33-%e6%9c%89%e6%95%88%e4%bd%bf%e7%94%a8%e7%bb%84%e5%90%88%e6%8a%80">3.3. 有效使用组合技</a></li>
+<li><a href="#34-%e5%b8%b8%e7%94%a8%e7%9a%84%e7%bb%84%e5%90%88%e6%8a%80%e6%95%88%e6%9e%9c">3.4. 常用的组合技效果</a></li>
+</ul>
+</li>
+<li><a href="#4-%e4%bb%80%e4%b9%88%e6%98%af-build">4. 什么是 Build</a>
+<ul>
+<li><a href="#41-%e4%bb%80%e4%b9%88%e6%98%af-meta-builds">4.1. 什么是 Meta Builds</a></li>
+<li><a href="#42-%e4%bb%80%e4%b9%88%e6%98%af%e6%8a%80%e8%83%bd%e5%be%aa%e7%8e%af-rotation">4.2. 什么是技能循环 Rotation</a></li>
+</ul>
+</li>
+<li><a href="#5-%e8%87%b4%e8%b0%a2">5. 致谢</a></li>
+</ul>
+<h2 id="1-常用游戏术语">1. 常用游戏术语</h2>
+<table>
+  <thead>
+    <tr>
+      <th>术语</th>
+      <th>解释</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Add(s) /Mob(s)</b></td>
+      <td>小怪</td>
+    </tr>
+    <tr>
+      <td><b>Aggro</b></td>
+      <td>拉怪：吸引敌人的注意，使他们进入战斗状态来攻击你。</td>
+    </tr>
+    <tr>
+      <td><b>AoE</b></a>
+      </td>
+      <td>区域性效果：一般指群体伤害。</td>
+    </tr>
+    <tr>
+      <td>
+        <b>Block</b>
+      </td>
+      <td>
+        格挡：某些技能或者 <a href="http://wiki.guildwars2.com/wiki/Aegis" title="Aegis"><img alt="Aegis" src="https://wiki.guildwars2.com/images/e/e5/Aegis.png" width="20" height="20" /></a> <a href="http://wiki.guildwars2.com/wiki/Aegis" class="extiw" title="gw2:Aegis">圣盾</a> 可以使你抵消即将到来的攻击。
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Control_effect"><b>CC</b></a>
+      </td>
+      <td>
+        <span class="gw2c-redd">群体控制 Crowd Control</span>： <br/>指使用控制类技能打破敌人的 <i><span class="gw2c-blue-gray">蔑视条 Defiance Bars</span> </i> ，<br/>或者控制没有 <i><span class="gw2c-blue-gray">蔑视条 Defiance Bars</span> </i> 的敌人。 <br/><b> CC 效果分为两种 ： "soft" （软 CC） 和 "hard" （硬 CC）。</b><br/> <b>软 CC </b>指以症状的形式造成敌人行动受限的控制效果, 但它不会完全使敌人无法行动，比如 <a href="https://wiki.guildwars2.com/wiki/Immobile"><img src="https://wiki.guildwars2.com/images/thumb/3/32/Immobile.png/20px-Immobile.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Immobile">定身</a> 。<br/><b>硬 CC </b>指会使敌人完全无法行动的控制效果，比如 <a href="https://wiki.guildwars2.com/wiki/Stun"><img src="https://wiki.guildwars2.com/images/thumb/9/97/Stun.png/20px-Stun.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Stun">昏迷</a>。 <br/><a href="http://wiki.guildwars2.com/wiki/Fear"><img src="https://wiki.guildwars2.com/images/e/e6/Fear.png" width="20" height="20" /></a> <a href="http://wiki.guildwars2.com/wiki/Fear">恐惧</a> 和 <a href="http://wiki.guildwars2.com/wiki/Taunt"><img src="https://wiki.guildwars2.com/images/c/cc/Taunt.png" width="20" height="20"/></a> <a href="http://wiki.guildwars2.com/wiki/Taunt">嘲讽</a> 是唯二被视为 <b>硬 CC </b>的症状。
+      </td>
+    </tr>
+    <tr>
+      <td><b>Cleave</b></td>
+      <td>清怪：原来指不需要改变主要攻击目标就可以攻击到目标周围其他小怪的技能，</br>现在通常指在攻击 Boss 的同时杀光小怪。</td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Condition"><b>Condi</b></a>
+      </td>
+      <td> 症状伤害 或者 症状Dps：常常缩写为 <b>condi</b>或者<b> Condi Dps /Cdps</b>。</td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Defiance_bar"><b>Defiance Bar</b></a>
+      </td>
+      <td>蔑视条：出现在某些敌人生命条下方的蓝色条。<br/>
+       <img src="/_media/Bluedefiancebar.png" /><br/>这个蓝条具有一个类似“血量”的值，你可以用 <b>CC</b> 技能去削减它。</br>一旦被削减到 <b>0</b>，敌人的当前行动会被打断且会受到额外伤害。
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Damage"><b>DPS</b></a>
+      </td>
+      <td>DPS（Damage Per Second 每秒造成伤害）：指对敌人造成伤害，也指造成伤害的角色。<br/> DPS分为 "power" 和 "condition (condi)" 两种，即 <b>直伤 Dps</b> 和 <b>症状 Dps</b>。</td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Evade"><b>Evade</b></a>
+      </td>
+      <td>闪避： 某些技能可以使你暂时闪避攻击。<b>翻滚</b> 可以使你在 0.75 秒内闪避攻击。</td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Flanking"><b>Flanking</b></a>
+      </td>
+      <td>攻击侧翼或者后背：某些技能或者特性在攻击敌人侧翼或者后背时使你获得额外伤害加成。</br>这个词也指永远避开敌人正面进行攻击。</td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Hitbox"><b>Hitbox</b></a>
+      </td>
+      <td>目标体积：目标占据区域的“大小”，决定了某些技能的命中与否和命中时成功打击的次数。</br>敌方目标被选中时下方的圆圈表明了它体积的大小。</td>
+    </tr>
+    <tr>
+      <td><b>ICD</b></td>
+      <td>内置CD <b>I</b>nternal <b>C</b>ool<b>d</b>own：许多特性的效果不会一直触发而是有一个内置的冷却时间，</br>在内置CD结束后，这些效果才能够再次被触发。</td>
+    </tr>
+    <tr>
+      <td><b>Kite /Kiting</b></td>
+      <td>风筝 ：类似坦克，但是要站在离 Boss 较远的地方主动成为某个特定机制或者攻击的目标，使大团免受干扰。 </td>
+    </tr>
+    <tr>
+      <td><b>Split Phase</b></td>
+      <td>分散阶段：在某些战斗中，Boss 会进入无敌状态，团队可能要在分为多个小分队去处理其他任务之后，</br>才能再次回来攻击 Boss。</td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.guildwars2.com/wiki/Support"><b>Support</b></a>
+      </td>
+      <td>辅助：为队友提供增益或者治疗的角色。</td>
+    </tr>
+    <tr>
+      <td><b>Tank</b></td>
+      <td>坦克：通常指坚韧最高的玩家，用来吸引 Boss 的注意并承担主要攻击。</td>
+    </tr>
+    <tr>
+      <td><b>Wipe</b></td>
+      <td>灭团：处理机制失败或者队友死亡过多导致挑战 Boss 失败。</td>
+    </tr>
+    <tr>
+      <td><b>gg, 7gg, /gg，GG</b></td>
+      <td>在团队副本或者迷雾碎层中输入/gg命令自杀。<b>"Full gg，all gg" </b> 指所有人都 gg 自杀，</br>一般在迷雾碎层中用来重置技能冷却和迷雾奇点。</td>
+    </tr>
+    <tr>
+      <td><b>Rez，Res</b></td>
+      <td>在脱战后自己复活 或者复活倒地的队友。</td>
+    </tr>
+    <tr>
+      <td><b>Stack</b></td>
+      <td>集合抱团：一般用来保证各种增益/减伤能充分覆盖所有队友。</td>
+    </tr>
+    <tr>
+      <td><b>Stealth</b></td>
+      <td><a href="https://wiki.guildwars2.com/wiki/Stealth"><img src="https://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/20px-Stealth.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Stealth">隐身</a>：所有人一起隐身来跳过某些关卡。</td>
+    </tr>
+    <tr>
+      <td><b>Skip</b></td>
+      <td>走捷径；在某处跳关。</td>
+    </tr>
+    <tr>
+      <td><b>Bu, Backup</b></td>
+      <td>替补：指替队友处理某个机制。</td>
+    </tr>
+    <tr>
+      <td><b>Portal</b></td>
+      <td>传送门：使用传送门集体快速移动或者跳过某些关卡。</td>
+    </tr>
+    <tr>
+      <td><b>Rush</b></td>
+      <td>直接开打，全力输出直至 Boss 被击败。</td>
+    </tr>
+    <tr>
+      <td><b>Pull /Grab</b></td>
+      <td>拉拽：拉怪，聚怪。</td>
+    </tr>
+    <tr>
+      <td><b>Buff, prebuff</b></td>
+      <td>刷Buff /起Buff； Prebuff 通常指战斗开始前提前刷Buff。</td>
+    </tr>
+    <tr>
+      <td><b>Reflect</b></td>
+      <td><a href="https://wiki.guildwars2.com/wiki/Reflect">反射</a>：使用反射类技能来减伤/处理机制/反弹 Boss 的投射物攻击。常见的技能有：<span data-armory-embed="skills" data-armory-ids="10302" data-armory-size="20" data-armory-inline-text="wiki"></span>， <span data-armory-embed="skills" data-armory-ids="9251" data-armory-size="20" data-armory-inline-text="wiki"></span>。</td>
+    </tr>
+    <tr>
+      <td><b>Stab, Stability</b></td>
+      <td><a href="https://wiki.guildwars2.com/wiki/Stability"><img src="https://wiki.guildwars2.com/images/thumb/a/ae/Stability.png/20px-Stability.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Stability">稳固</a>：刷稳固 Buff 来抵抗击倒等控制技能。</td>
+    </tr>
+    <tr>
+      <td><b>Clean, Cleansing</b></td>
+      <td>为自己和/或队友清除身上的症状。</td>
+    </tr>
+    <tr>
+      <td><b>KP, Kill proof(s)</b></td>
+      <td>击杀团队副本 Boss 或者通关高难度副本的证明，比如 <span data-armory-embed="items" data-armory-ids="81743" data-armory-size="20" data-armory-inline-text="wiki"></span>、<span data-armory-embed="items" data-armory-ids="77302" data-armory-size="20" data-armory-inline-text="wiki"></span> 和 <span data-armory-embed="items" data-armory-ids="88485" data-armory-size="20" data-armory-inline-text="wiki"></span>。</td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
+<hr>
+<h2 id="2-什么是-cc-和蔑视条">2. 什么是 CC 和蔑视条</h2>
+<h3 id="21-什么是-cc">2.1. 什么是 CC</h3>
+<p><span class="gw2c-redd">群体控制 Crowd Control (CC)</span>：<br/></p>
+<ul>
+<li>指使用控制类技能打破敌人的 <i><span class="gw2c-blue-gray">蔑视条 Defiance Bars</span> </i> ，或者控制没有 <i><span class="gw2c-blue-gray">蔑视条 Defiance Bars</span> </i> 的敌人。 <br/></li>
+<li><b> CC 效果分为两种 ： &quot;soft&quot; （软 CC） 和 &quot;hard&quot; （硬 CC）。</b><br/> <b>软 CC </b>指以症状的形式造成敌人行动受限的控制效果, 但它不会完全使敌人无法行动，比如 <a href="https://wiki.guildwars2.com/wiki/Immobile"><img src="https://wiki.guildwars2.com/images/thumb/3/32/Immobile.png/20px-Immobile.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Immobile">定身</a> 。<br/><b>硬 CC </b>指会使敌人完全无法行动的控制效果，比如 <a href="https://wiki.guildwars2.com/wiki/Stun"><img src="https://wiki.guildwars2.com/images/thumb/9/97/Stun.png/20px-Stun.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Stun">昏迷</a>。 <br/><a href="http://wiki.guildwars2.com/wiki/Fear"><img src="https://wiki.guildwars2.com/images/e/e6/Fear.png" width="20" height="20" /></a> <a href="http://wiki.guildwars2.com/wiki/Fear">恐惧</a> 和 <a href="http://wiki.guildwars2.com/wiki/Taunt"><img src="https://wiki.guildwars2.com/images/c/cc/Taunt.png" width="20" height="20"/></a> <a href="http://wiki.guildwars2.com/wiki/Taunt">嘲讽</a> 是唯二被视为 <b>硬 CC </b>的症状。</li>
+</ul>
+<h4 id="211-硬-cc">2.1.1. 硬 CC</h4>
+<ul>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Daze" title="Daze"><img alt="Daze.png" src="https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/30px-Daze.png 1.5x, /images/7/79/Daze.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Daze" title="Daze">眩晕 Daze</a> — 短时间内无法使用技能。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Stun" title="Stun"><img alt="Stun.png" src="https://wiki.guildwars2.com/images/thumb/9/97/Stun.png/20px-Stun.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/9/97/Stun.png/30px-Stun.png 1.5x, /images/9/97/Stun.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Stun" title="Stun">昏迷 Stun</a> — 短时间内无法移动和行动。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Knockdown" title="Knockdown"><img alt="Knockdown.png" src="https://wiki.guildwars2.com/images/thumb/3/36/Knockdown.png/20px-Knockdown.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/3/36/Knockdown.png/30px-Knockdown.png 1.5x, /images/3/36/Knockdown.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Knockdown" title="Knockdown">击倒 Knockdown</a> — 将目标击倒在地，短时间内阻止其移动和行动。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Pull" title="Pull"><img alt="Radius.png" src="https://wiki.guildwars2.com/images/thumb/a/a4/Radius.png/20px-Radius.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/a/a4/Radius.png/30px-Radius.png 1.5x, /images/a/a4/Radius.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Pull" title="Pull">拉拽 Pull</a> — 将施法者拉拽到目标或者将目标拉拽到特定位置，并在短时间内打断其行动。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Knockback" title="Knockback"><img alt="Knockback.png" src="https://wiki.guildwars2.com/images/thumb/c/ca/Knockback.png/20px-Knockback.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/c/ca/Knockback.png/30px-Knockback.png 1.5x, /images/c/ca/Knockback.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Knockback" title="Knockback">击退 Knockback</a> — 将目标击退在地，短时间内阻止其移动或行动。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Launch" title="Launch"><img alt="Launch.png" src="https://wiki.guildwars2.com/images/thumb/6/68/Launch.png/20px-Launch.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/6/68/Launch.png/30px-Launch.png 1.5x, /images/6/68/Launch.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Launch" title="Launch">击飞 Launch</a> — 把目标抛起并击飞一段距离，短时间内阻止其移动或行动。
+可以击飞 <a href="https://wiki.guildwars2.com/wiki/Downed" title="Downed">倒地</a> 的目标。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Float" title="Float"><img alt="Float.png" src="https://wiki.guildwars2.com/images/thumb/c/c8/Float.png/20px-Float.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/c/c8/Float.png/30px-Float.png 1.5x, /images/c/c8/Float.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Float" title="Float">上浮 Float</a> — 使目标从水中上浮或者从地上浮空。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Sink" title="Sink"><img alt="Sink.png" src="https://wiki.guildwars2.com/images/thumb/6/66/Sink.png/20px-Sink.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/6/66/Sink.png/30px-Sink.png 1.5x, /images/6/66/Sink.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Sink" title="Sink">下沉 Sink</a> — 使目标从水中下沉。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Fear" title="Fear"><img alt="Fear.png" src="https://wiki.guildwars2.com/images/thumb/e/e6/Fear.png/20px-Fear.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/e/e6/Fear.png/30px-Fear.png 1.5x, /images/e/e6/Fear.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Fear" title="Fear">恐惧 Fear</a> — 打断目标所有技能，短时间内迫使目标向远离施法者的方向逃跑。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Taunt" title="Taunt"><img alt="Taunt.png" src="https://wiki.guildwars2.com/images/thumb/c/cc/Taunt.png/20px-Taunt.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/c/cc/Taunt.png/30px-Taunt.png 1.5x, /images/c/cc/Taunt.png 2x" /></a></span><a href="https://wiki.guildwars2.com/wiki/Taunt" title="Taunt">嘲讽 Taunt</a> — 迫使所有受影响的目标在使用自动攻击技能时，不受控制地向施法者跑去。</p>
+</li>
+</ul>
+<h4 id="212-软-cc">2.1.2. 软 CC</h4>
+<ul>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Blinded" title="Blinded"><img alt="Blinded.png" src="https://wiki.guildwars2.com/images/thumb/3/33/Blinded.png/20px-Blinded.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/3/33/Blinded.png/30px-Blinded.png 1.5x, /images/3/33/Blinded.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Blinded" title="Blinded">致盲 Blinded</a> — 下一次攻击 100% 无法命中。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Chilled" title="Chilled"><img alt="Chilled.png" src="https://wiki.guildwars2.com/images/thumb/a/a6/Chilled.png/20px-Chilled.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/a/a6/Chilled.png/30px-Chilled.png 1.5x, /images/a/a6/Chilled.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Chilled" title="Chilled">冰冻 Chilled</a> — 减少 66% 的移动速度，66% 的技能冷却恢复速度。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Crippled" title="Crippled"><img alt="Crippled.png" src="https://wiki.guildwars2.com/images/thumb/f/fb/Crippled.png/20px-Crippled.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/f/fb/Crippled.png/30px-Crippled.png 1.5x, /images/f/fb/Crippled.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Crippled" title="Crippled">残废 Crippled</a> — 减少 50% 移动速度。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Immobile" title="Immobile"><img alt="Immobile.png" src="https://wiki.guildwars2.com/images/thumb/3/32/Immobile.png/20px-Immobile.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/3/32/Immobile.png/30px-Immobile.png 1.5x, /images/3/32/Immobile.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Immobile" title="Immobile">定身 Immobile</a> — 无法移动或转向。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Slow" title="Slow"><img alt="Slow.png" src="https://wiki.guildwars2.com/images/thumb/f/f5/Slow.png/20px-Slow.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/f/f5/Slow.png/30px-Slow.png 1.5x, /images/f/f5/Slow.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Slow" title="Slow">迟缓 Slow</a> — 减少 50% 的所有动画速度，包括移动、翻滚和施法。</p>
+</li>
+<li>
+<p><a href="https://wiki.guildwars2.com/wiki/Weakness" title="Weakness"><img alt="Weakness.png" src="https://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/20px-Weakness.png" decoding="async" width="20" height="20" srcset="https://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/30px-Weakness.png 1.5x, /images/f/f9/Weakness.png 2x" /></a><a href="https://wiki.guildwars2.com/wiki/Weakness" title="Weakness">虚弱 Weakness</a> — <a href="https://wiki.guildwars2.com/wiki/Endurance" title="Endurance">耐力</a> 恢复速度减少  50%，并且攻击有 50% 的几率 <a href="https://wiki.guildwars2.com/wiki/Glancing" title="Glancing">偏斜</a> —— 无法 <a href="https://wiki.guildwars2.com/wiki/Critical" class="mw-redirect" title="Critical">暴击</a> 且只造成 50% 伤害。</p>
+</li>
+</ul>
+<h3 id="22-什么是蔑视条">2.2. 什么是蔑视条</h3>
+<p><img src="/_media/Breakbar_example.jpg" alt="Breakbar_example"></p>
+<p>大多数敌人会受到 CC 技能的影响，一些强大的敌人会具有 <strong>蔑视defiant</strong> 并且对控制效果有抵抗力。这种抵抗表现为 <strong>蔑视条</strong> 的形式，出现在生命条下方。</p>
+<p><img src="/_media/Lockeddefiancebar.png" alt="Lockeddefiancebar"></p>
+<ul>
+<li>当 <strong>蔑视条</strong> 是 <strong>灰色</strong> 并被 <strong>锁定</strong> 时，敌人对 CC 是完全免疫的。所有控制类效果和症状会在敌人的状态栏上显示，但不会生效。</li>
+</ul>
+<p><img src="/_media/Bluedefiancebar.png" alt="Bluedefiancebar"></p>
+<ul>
+<li>
+<p>当 <strong>蔑视条</strong> 是 <strong>蓝色</strong> 时，你可以用 CC 技能对 <strong>蔑视条</strong> 造成伤害并最终 <strong>击破</strong> 它，这就是所谓的 <strong>破蔑视</strong> 。</p>
+<ul>
+<li>软 CC 会随时间逐渐削减蔑视条；</li>
+<li>硬 CC 会立刻削减蔑视条，削减的值根据技能效果决定。</li>
+</ul>
+</li>
+<li>
+<p>当敌人的 <strong>蔑视条</strong> 被完全打破时，它会：</p>
+<ul>
+<li>被打断当前的技能或者攻击；</li>
+<li>陷入 <a href="https://wiki.guildwars2.com/wiki/Stun"><img src="https://wiki.guildwars2.com/images/thumb/9/97/Stun.png/20px-Stun.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Stun">昏迷</a>，在数秒内无法行动；</li>
+<li>陷入 <a href="https://wiki.guildwars2.com/wiki/Knockdown"><img src="https://wiki.guildwars2.com/images/thumb/3/36/Knockdown.png/20px-Knockdown.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Knockdown">击倒</a> 状态；</li>
+<li>陷入 <a href="https://wiki.guildwars2.com/wiki/Exposed_(effect)"><img src="https://wiki.guildwars2.com/images/6/6b/Exposed.png" width="20" height="20" /></a> <a href="https://wiki.guildwars2.com/wiki/Exposed_(effect)">暴露</a> 状态，<span class="gw2c-redd">在 5 秒钟受到 50% 的额外伤害</span>；</li>
+</ul>
+</li>
+</ul>
+<p><img src="/_media/Orangedefiancebar.jpg" alt="Orangedefiancebar"></p>
+<ul>
+<li>当 <strong>蔑视条</strong> 是 <strong>橙色</strong> 时，这代表着敌人的 <strong>蔑视条</strong> 最近被 <strong>击破</strong> 过，此时敌人暂时对控制效果免疫。这个条会渐渐充能并最终变成 <strong>蓝色</strong>，并允许被再次 <strong>击破</strong> 。</li>
+</ul>
+<h3 id="23-我什么时候该-cc">2.3. 我什么时候该 CC</h3>
+<p>如果看到蓝色的蔑视条，则99％的情况下应尝试尽快将其击破。这是因为：</p>
+<ul>
+<li>打破蔑视条将阻止敌人移动或攻击；并且在挑战 <strong>赏金 Boss （Bounty Boss）</strong> 时，能够完全消除其所有不稳定魔法能力带来的技能。</li>
+<li>当敌人昏迷时，你通常会获得对敌人的巨大伤害加成。</li>
+<li>一些 Boss，如巨龙之山的 Ignis 和 Aestus，或者噩梦碎层的 SIAX，如果他们的蔑视条不被及时击破，将施放大范围的 AoE 攻击。</li>
+</ul>
+<p><b>这意味着你越快打破敌人的蔑视条，敌人就越容易被击败。</b></p>
+<blockquote>
+<p><span class="gwc-red">例外</span>：在某些特定的战斗中，您可能希望使用 <strong>软 CC</strong> 控制削减蔑视条的时间，而不是立即打破蔑视条。这是因为你只有有限的时间来造成伤害，所以不能 CC 太快。</p>
+</blockquote>
+<ul>
+<li>如果你 <strong>尽可能慢</strong> 地 CC 巨龙阵地的最终 BOSS 莫德莫斯之口，你可以使龙头停留在平台上，并给炸弹组更多的时间放下炸弹。</li>
+<li>如果团队总输出较低，你可以 <strong>尽可能慢</strong> 地 CC 团队副本 Boss <strong>多变藤戈瑟瓦尔</strong>，来获得更多的时间造成伤害。</li>
+</ul>
+<p>在任何其他情况下，你应该努力尽快 CC。</p>
+<h3 id="24-我如何更快地-cc">2.4. 我如何更快地 CC</h3>
+<ul>
+<li><strong>了解你的 CC 技能</strong> ：每个职业都有可以使用的 CC 技能，你应该了解并熟悉这些技能，并在需要的时候使用它们。</li>
+<li>使用你 <strong>弹跳兔</strong> <strong>1 技能</strong>。如果你已经学习了弹跳兔的“强力冲击”专精，那么弹跳兔坐骑的 1 技能 <strong>炮弹攻击</strong> 会击倒敌人。这使得它成为一种免费的 CC 技能，任何职业都可以在战斗开始时使用。</li>
+<li>使用小道具。你可以从各个商人那里购买 <a href="https://wiki.guildwars2.com/wiki/Rock_%28level_22%29" target="_blank" rel="noreferrer noopener">岩石</a> 和 <a href="https://wiki.guildwars2.com/wiki/Wooden_Plank" target="_blank" rel="noreferrer noopener">木板</a>，它们可以供任何职业使用，提供硬 CC 技能。</li>
+</ul>
+<hr>
+<h2 id="3-什么是组合技">3. 什么是组合技</h2>
+<p>组合技是 <strong>激战 2</strong> 的一项重要机制。对于 <strong>工程师</strong> 和 <strong>元素使</strong> 来说掌握组合技非要关键，但是所有职业都可以有效利用这一机制。下面将介绍在不同游戏模式下使用的组合技系统和常见的组合技。</p>
+<h3 id="31-组合技区域和组合终结技">3.1. 组合技区域和组合终结技</h3>
+<ul>
+<li>
+<p><strong>激战 2</strong> 中的许多技能都会留下某种属性类型的 <strong>组合技区域(Combo Field)</strong>。这些区域在地面上显示为圆形或矩形，并用与属性对应颜色勾勒出光环。</p>
+</li>
+<li>
+<p>某些类型的技能（称为 <strong>组合终结技(Combo Finisher)</strong> ）在 <strong>组合技区域</strong> 内使用时会产生额外效果。这个额外效果取决于两者的类型。</p>
+</li>
+</ul>
+<p>每个技能上都有提示，说明能否产生 <strong>组合技区域</strong> 或/和 <strong>组合终结技</strong>。</p>
+<h3 id="32-组合技效果">3.2. 组合技效果</h3>
+<p><strong>终结技</strong> 共有 4 种：</p>
+<ul>
+<li><strong>爆炸</strong>：产生的组合技效果将作用于爆炸点半径 360 码范围内的所有敌人或盟友。</li>
+<li><strong>跳跃</strong>：产生的组合技效果将作用于目标敌人或角色自身。</li>
+<li><strong>物理投射物</strong>：产生的组合技效果将作用于半径 240 码范围内的目标敌人或盟友。</li>
+<li><strong>旋风</strong>：向周围不同方向随机投射出多个物理投射物。</li>
+</ul>
+<blockquote>
+<p>关于完整组合技的说明和各职业的技能，请查阅维基 <a href="https://wiki.guildwars2.com/wiki/Combo">https://wiki.guildwars2.com/wiki/Combo</a>。</p>
+</blockquote>
+<table class="wikitable">
+  <tbody>
+    <tr>
+      <th>区域类型</th>
+      <th>颜色</th>
+      <th>爆炸终结技（Blast）</th>
+      <th>跳跃终结技（Leap）</th>
+      <th>投射物或者旋风终结技（Projectile /Whirl）</th>
+      <th>提供区域的主要职业</th>
+    </tr>
+    <tr>
+      <td>黑暗 Dark</td>
+      <td>黑色 Black</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Blind" title="Blind"><img alt="Blind" src="https://wiki.guildwars2.com/images/3/33/Blinded.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/6/68/Blind.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Blind" class="extiw" title="gw2:Blind">致盲</a> (3s)
+      </td>
+      <td>
+        自身获得 <a href="http://wiki.guildwars2.com/wiki/Dark_Aura" title="Dark Aura"><img alt="Dark Aura" src="https://wiki.guildwars2.com/images/thumb/e/ef/Dark_Aura.png/20px-Dark_Aura.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/e/ef/Dark_Aura.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Dark_Aura" class="extiw" title="gw2:Dark Aura">黑暗光环</a> (5s)
+      </td>
+      <td>投射物 偷取生命</td>
+      <td>死灵 和 魂武</td>
+    </tr>
+    <tr>
+      <td>幻光 Ethereal</td>
+      <td>紫色 Purple</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Chaos_Aura" title="Chaos Aura"><img alt="Chaos Aura" src="http://wiki.guildwars2.com/images/thumb/e/ec/Chaos_Aura.png/25px-Chaos_Aura.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/e/ec/Chaos_Aura.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Chaos_Aura" class="extiw" title="gw2:Chaos Aura">混乱光环</a> (3s)
+      </td>
+      <td>
+        自身获得 <a href="http://wiki.guildwars2.com/wiki/Chaos_Aura" title="Chaos Aura"><img alt="Chaos Aura" src="http://wiki.guildwars2.com/images/thumb/e/ec/Chaos_Aura.png/25px-Chaos_Aura.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/e/ec/Chaos_Aura.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Chaos_Aura" class="extiw" title="gw2:Chaos Aura">混乱光环</a> (5s)
+      </td>
+      <td>
+        投射物 造成 <a href="http://wiki.guildwars2.com/wiki/Confusion" title="Confusion"><img alt="Confusion" src="https://wiki.guildwars2.com/images/thumb/e/e6/Confusion.png/20px-Confusion.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/e/e6/Confusion.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Confusion" class="extiw" title="gw2:Confusion">困惑</a> (5s)
+      </td>
+      <td>幻术</td>
+    </tr>
+    <tr>
+      <td>火焰 Fire</td>
+      <td>橙色 Orange</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Might" title="Might"><img alt="Might" src="https://wiki.guildwars2.com/images/thumb/c/ce/Fire_Aura.png/20px-Fire_Aura.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/7/7c/Might.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Might" class="extiw" title="gw2:Might">威能</a> (3 层 持续 20s)
+      </td>
+      <td>
+        自身获得 <a href="http://wiki.guildwars2.com/wiki/Fire_Aura" title="Fire Aura"><img alt="Fire Aura" src="https://wiki.guildwars2.com/images/thumb/c/ce/Fire_Aura.png/20px-Fire_Aura.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/c/ce/Fire_Aura.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Fire_Aura" class="extiw" title="gw2:Fire Aura">火焰光环</a> (5s)
+      </td>
+      <td>
+        投射物 造成 <a href="http://wiki.guildwars2.com/wiki/Burning" title="Burning"><img alt="Burning" src="https://wiki.guildwars2.com/images/thumb/4/45/Burning.png/20px-Burning.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/4/45/Burning.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Burning" class="extiw" title="gw2:Burning">燃烧</a> (1s)
+      </td>
+      <td>元素, 工程, 游侠, 魂武 和 战士</td>
+    </tr>
+    <tr>
+      <td>寒冰 Ice</td>
+      <td>浅蓝色 Light blue</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Frost_Aura_(effect)" title="Frost Aura (effect)"><img alt="Frost Aura (effect)" src="https://wiki.guildwars2.com/images/thumb/8/87/Frost_Aura_%28effect%29.png/20px-Frost_Aura_%28effect%29.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/8/87/Frost_Aura_%28effect%29.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Frost_Aura_(effect)" class="extiw" title="gw2:Frost Aura (effect)">冰霜光环</a> (3s)
+      </td>
+      <td>
+        自身获得 <a href="http://wiki.guildwars2.com/wiki/Frost_Aura_(effect)" title="Frost Aura (effect)"><img alt="Frost Aura (effect)" src="https://wiki.guildwars2.com/images/thumb/8/87/Frost_Aura_%28effect%29.png/20px-Frost_Aura_%28effect%29.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/8/87/Frost_Aura_%28effect%29.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Frost_Aura_(effect)" class="extiw" title="gw2:Frost Aura (effect)">冰霜光环</a> (5s)
+      </td>
+      <td>
+        投射物 造成 <a href="http://wiki.guildwars2.com/wiki/Chill" title="Chill"><img alt="Chill" src="https://wiki.guildwars2.com/images/thumb/a/a6/Chilled.png/20px-Chilled.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/7/7b/Chill.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Chill" class="extiw" title="gw2:Chill">冰冻</a> (1s)
+      </td>
+      <td>元素</td>
+    </tr>
+    <tr>
+      <td>光明 Light</td>
+      <td>黄色 Yellow</td>
+      <td>范围清除症状</td>
+      <td>
+        自身获得 <a href="http://wiki.guildwars2.com/wiki/Light_Aura" title="Light Aura"><img alt="Light Aura" src="https://wiki.guildwars2.com/images/thumb/5/5a/Light_Aura.png/20px-Light_Aura.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/5/5a/Light_Aura.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Light_Aura" class="extiw" title="gw2:Light Aura">圣光光环</a> (5s)
+      </td>
+      <td>投射物 清除症状</td>
+      <td>工程, 守护 和 幻术</td>
+    </tr>
+    <tr>
+      <td>闪电 Lightning</td>
+      <td>白色 White</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Swiftness" title="Swiftness"><img alt="Swiftness" src="http://wiki.guildwars2.com/images/thumb/a/af/Swiftness.png/25px-Swiftness.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/a/af/Swiftness.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Swiftness" class="extiw" title="gw2:Swiftness">迅捷</a> (10s)
+      </td>
+      <td>
+        造成 <a href="http://wiki.guildwars2.com/wiki/Daze" title="Daze"><img alt="Daze" src="https://wiki.guildwars2.com/images/thumb/7/79/Daze.png/20px-Daze.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/7/79/Daze.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Daze" class="extiw" title="gw2:Daze">晕眩</a> (1s)
+      </td>
+      <td>
+        投射物 造成 <a href="http://wiki.guildwars2.com/wiki/Vulnerability" title="Vulnerability"><img alt="Vulnerability" src="http://wiki.guildwars2.com/images/thumb/a/af/Vulnerability.png/25px-Vulnerability.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/a/af/Vulnerability.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Vulnerability" class="extiw" title="gw2:Vulnerability">虚弱</a> (2 层 持续 5s)
+      </td>
+      <td>元素 和 工程 (机械师)</td>
+    </tr>
+    <tr>
+      <td>毒素 Poison</td>
+      <td>绿色 Green</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Weakness" title="Weakness"><img alt="Weakness" src="http://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/25px-Weakness.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/f/f9/Weakness.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Weakness" class="extiw" title="gw2:Weakness">虚弱</a> (3s)
+      </td>
+      <td>
+        造成 <a href="http://wiki.guildwars2.com/wiki/Weakness" title="Weakness"><img alt="Weakness" src="http://wiki.guildwars2.com/images/thumb/f/f9/Weakness.png/25px-Weakness.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/f/f9/Weakness.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Weakness" class="extiw" title="gw2:Weakness">虚弱</a> (8s)
+      </td>
+      <td>
+        投射物 造成 <a href="http://wiki.guildwars2.com/wiki/Poison" title="Poison"><img alt="Poison" src="https://wiki.guildwars2.com/images/thumb/1/11/Poisoned.png/20px-Poisoned.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/0/05/Poison.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Poison" class="extiw" title="gw2:Poison">中毒</a> (2s)
+      </td>
+      <td>死灵 和 潜行者</td>
+    </tr>
+    <tr>
+      <td>烟雾 Smoke</td>
+      <td>灰色 Gray</td>
+      <td>
+        群体 <a href="http://wiki.guildwars2.com/wiki/Stealth" title="Stealth"><img alt="Stealth" src="http://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/25px-Stealth.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/38px-Stealth.png 1.5x, /images/thumb/1/19/Stealth.png/50px-Stealth.png 2x" data-file-width="128" data-file-height="128" /></a> <a href="http://wiki.guildwars2.com/wiki/Stealth" class="extiw" title="gw2:Stealth">隐身</a> (3s)
+      </td>
+      <td>
+        自身获得 <a href="http://wiki.guildwars2.com/wiki/Stealth" title="Stealth"><img alt="Stealth" src="http://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/25px-Stealth.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/38px-Stealth.png 1.5x, /images/thumb/1/19/Stealth.png/50px-Stealth.png 2x" data-file-width="128" data-file-height="128" /></a> <a href="http://wiki.guildwars2.com/wiki/Stealth" class="extiw" title="gw2:Stealth">隐身</a> (3s)
+      </td>
+      <td>
+        投射物 造成 <a href="http://wiki.guildwars2.com/wiki/Blind" title="Blind"><img alt="Blind" src="https://wiki.guildwars2.com/images/thumb/3/33/Blinded.png/20px-Blinded.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/6/68/Blind.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Blind" class="extiw" title="gw2:Blind">致盲</a> (3s)
+      </td>
+      <td>工程 和 潜行者</td>
+    </tr>
+    <tr>
+      <td>流水 Water</td>
+      <td>蓝色 Blue</td>
+      <td>群体治疗</td>
+      <td>自身获得治疗</td>
+      <td>
+        投射物 给予<a href="http://wiki.guildwars2.com/wiki/Regeneration" title="Regeneration"><img alt="Regeneration" src="https://wiki.guildwars2.com/images/thumb/5/53/Regeneration.png/20px-Regeneration.png" width="20" height="20" srcset="http://wiki.guildwars2.com/images/5/53/Regeneration.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Regeneration" class="extiw" title="gw2:Regeneration">再生</a> (2s)
+      </td>
+      <td>元素, 工程 和 游侠 (德鲁伊)</td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="33-有效使用组合技">3.3. 有效使用组合技</h3>
+<p><strong>组合技</strong> 很重要，因为这允许你轻松获得额外的强大效果。由于可以在 <strong>区域</strong> 中使用的 <strong>终结技</strong> 数量没有限制（但是某一个 <strong>区域</strong> 只允许最多 5 个盟友施放组合技），队伍里的玩家可以利用 <strong>终结技</strong> 从另一个玩家的 <strong>区域</strong> 中获得 <strong>大量</strong> 的 <img src="https://wiki.guildwars2.com/images/7/7c/Might.png" width="20" height="20" /><a href="https://wiki.guildwars2.com/wiki/Might" target="_blank" rel="noreferrer noopener">威能</a>，<strong>治疗</strong> 或者 <img src="https://wiki.guildwars2.com/images/thumb/1/19/Stealth.png/20px-Stealth.png" width="20" height="20" /><a href="https://wiki.guildwars2.com/wiki/Stealth">隐身</a>。</p>
+<ul>
+<li>
+<p>为了有效地使用 <strong>组合技</strong>，你应该知道自己的技能是 <strong>区域</strong> 还是和 <strong>终结技</strong> ，并通过打字或语音与周围的玩家进行协调：</p>
+</li>
+<li>
+<p>你应该知道什么时候该使用哪一种 <strong>区域</strong>，例如在战斗开始时施放 <strong>火圈（火焰区域）</strong> 来供队友使用 <strong>爆炸终结技</strong> 提供 <img src="https://wiki.guildwars2.com/images/7/7c/Might.png" width="20" height="20" /><a href="https://wiki.guildwars2.com/wiki/Might" target="_blank" rel="noreferrer noopener">威能</a>，称为“炸威能”或者“炸火圈”；或当队友血量较低时的施放 <strong>水圈</strong>。</p>
+</li>
+<li>
+<p>但你必须注意的是，过多的 <strong>区域</strong> 会干扰队伍获得想要的 <strong>终结技效果</strong>，而且先施放的 <strong>区域</strong> 会优先于后施放的生效。例如，队友原本希望的是施放一个 <strong>火圈（火焰区域）</strong> 来 <strong>炸威能</strong> ，而你却先施放了一个 <strong>光圈（光明区域）</strong> 的话，你们就会获得 <strong>范围清除症状</strong> 而不是 <strong>群体威能</strong>（是不是很困扰？）。</p>
+</li>
+</ul>
+<h3 id="34-常用的组合技效果">3.4. 常用的组合技效果</h3>
+<ul>
+<li><strong>炸威能</strong>：在火圈中使用爆炸终结技可以让 5 个附近的盟友获得持续 20 秒的威能。</li>
+<li><strong>炸水</strong>：在水圈中使用爆炸终结技可以治疗 5 个附近的盟友，在 WVW 里指挥官会说“ water on tag”要求在指挥官标记处炸水。</li>
+<li><strong>炸隐身</strong>：在烟圈中使用爆炸终结技可以使 5 个附近的盟友获得隐身。通过协作，队伍可以获得长时间的隐身。PVP 和 WVW 中经常会使用，一般队友会说“ smoke ”或者“ smoke on tag ”。</li>
+<li><strong>群体清症</strong>：光圈是一个强大的防御性区域，允许你群体清症或者获得圣光光环（-10% 受到的症状伤害）。</li>
+<li><strong>炸迅捷</strong>：在电圈中使用爆炸终结技可以让 5 个附近的盟友获得持续 10 秒的迅捷。通过协作，队伍可以获得长时间的迅捷。常用于 PVP 开场或者 WVW 的团队集合时。</li>
+</ul>
+<hr>
+<h2 id="4-什么是-build">4. 什么是 Build</h2>
+<p><b> Build </b> 一般称为配装，但实际上涵盖的概念比配装更为丰富，它是三大类要素的集合：</p>
+<table>
+    <tr>
+        <td rowspan="10"><strong><font color=#FF0000, size=4> Build </font></strong></td>
+        <td rowspan="3"><b> 1. 技能 </b></td>  
+        <td rowspan="3"> 技能循环和组合技 </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2"> 武器技能选择 </td>  
+    </tr>
+    <tr>  
+    </tr>
+    <tr>
+        <td colspan="4"><b><center> 2. 特性 </center></b></td>
+    </tr>
+    <tr>
+        <td rowspan="5"><b> 3.<br/>属性<br/>选择</b></td>  
+    </tr>
+    <tr>
+        <td > 武器 </td>  
+        <td > 法印 </td>
+        <td rowspan="3" > 灌注 </td>
+    </tr>
+    <tr>
+        <td > 护甲 </td>
+        <td > 符文 </td>  
+    </tr>
+    <tr>
+        <td colspan="2"> 饰品和背部 </td>  
+    </tr>
+    <tr>
+        <td colspan="3"> 食物和扳手 </td>
+    </tr>
+</table>
+<ul>
+<li><b> Build </b> 是依据职业、定位（输出、治疗、辅助……等）和游戏模式（野外，碎层，团队副本，战场……等）的不同而决定的。</li>
+</ul>
+<h3 id="41-什么是-meta-builds">4.1. 什么是 Meta Builds</h3>
+<blockquote>
+<p>引用自 discretize.eu ：
+关于 meta builds 的解释有很多，但我们认为 <a href="https://www.urbandictionary.com/define.php?term=meta" target="_blank" rel="noreferrer noopener">urbandictionary</a> 的定义是最准确的：meta 是“在 MMO 中​​使用的术语，指 <strong>可用的最有效策略</strong> （the <strong>M</strong>ost <strong>E</strong>ffective <strong>T</strong>actic <strong>A</strong>vailable）。基本上，无论你的目的如何，meta 都可以在游戏中起作用。 ”</p>
+<p>许多玩家每天都在使用某些 <strong>非 meta</strong> 的队伍组成/打法来完成碎层日常，并不能将这些策略（打法）定义为 meta。这些打法可以为他们的目标充分发挥作用——不灭团并且安全地打完通关——但是，它们不是最快或最有效的游戏方式。</p>
+<p>因此，碎层的 meta 不仅包括最有效的职业+队伍构成，而且还包括这些职业如何操作——即应使用哪种循环 （Rotation）。</p>
+</blockquote>
+<p><strong>在中文语境中，Meta Builds 可以近似地理解为 最有效最强力的配装；但相应地，学习难度可能也较大。</strong></p>
+<p>同样地，在 团队副本 Raid 中也存在 Meta 的定义。</p>
+<p>关于更多迷雾碎层和团队副本的内容，请移步 <a href="/fractals/starting/">迷雾碎层：入门</a> 和 <a href="/raids/raid-intro/">团队副本：入门</a>。</p>
+<h3 id="42-什么是技能循环-rotation">4.2. 什么是技能循环 Rotation</h3>
+<p><strong>技能循环 Rotation</strong> 是一个 Build 的组成要素之一，是根据不同的战斗情形，技能组合的选择和施放技能的特定顺序。</p>
+<p>在理想情况下，按此顺序进行技能施放，可以发挥 Build 的最大潜力，尽可能地造成最高 DPS 。</p>
+<hr>
+<h2 id="5-致谢">5. 致谢</h2>
+<p>本文参考了 <a href="tps://metabattle.com/wiki/PvE_Guides">Metabattle PVE 攻略</a> 的部分内容，在此向其作者表示感谢。</p>
+<p style="text-align:right;"><a href="#Top">回到顶端</a></p>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+		<figure class="authorbox__avatar">
+			<img alt="Olivier avatar" src="/voidpin/images/where_is_ur_dmg.jpg" class="avatar" height="90" width="90">
+		</figure>
+		<div class="authorbox__header">
+			<span class="authorbox__name"> </span>
+		</div>
+		<div class="authorbox__description">
+			Returned from the void. IGN: OlivierVoldaren.1947
+		</div>
+	
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/tutorials/red-mastery-points/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;上一篇</span>
+			<p class="pager__title">泰瑞亚中心专精攻略</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/tutorials/cdkey/" rel="next">
+			<span class="pager__subtitle">下一篇&thinsp;»</span>
+			<p class="pager__title">CDKEY 游戏资料片激活码购买</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 voidpin.com | All trademarks and copyrights on this site are owned by their respective owners. 未经授权禁止转载、摘编、复制或建立镜像.
+			<span class="footer__copyright-credits">基于 <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> 引擎和 <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> 主题</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/voidpin/js/custom.js"></script><script async src="/npm/armory-embeds-voidpin@0.4.3/armory-embeds.js"></script>
+<script>
+  document.GW2A_EMBED_OPTIONS = {
+    lang: "zh",
+  };
+</script>
+<script src="/npm/vanilla-back-to-top@7.2.1/vanilla-back-to-top.min.js"></script>
+<script>
+  addBackToTop({
+	diameter: 56,
+	backgroundColor: 'rgb(255, 82, 82)',
+	textColor: '#fff'
+  })
+</script>
+<script>
+	window.onload = function() {
+		document.body.addEventListener('mousedown', ev => {
+			const a = event.target.closest('a');
+			if (a && a.hasAttribute('href') && a.getAttribute('href').toString().includes('guildwars2.com/wiki/Special:Search/')) {
+				const b = a.parentNode.parentNode.parentNode;
+				if (b.hasAttribute('data-armory-ids')) {
+					const c = b.getElementsByClassName('gw2a--M9jBV');
+					var wikiid = 0;
+					if (c.length > 1) {
+						for (let i = 0; i < c.length; i++) {
+							if (c[i].contains(a)) {
+								wikiid = b.getAttribute('data-armory-ids').toString().split(',')[i];
+								break;
+							}
+						}
+					} else {
+						wikiid = b.getAttribute('data-armory-ids').toString().replace(',', '');
+					}
+					a.href = 'https://wiki.guildwars2.com/wiki/Special:RunQuery/Search_by_id?title=Special%3ARunQuery%2FSearch_by_id&pfRunQueryFormName=Search+by+id&Search+by+id%5Bid%5D=' + wikiid;
+				};
+			}
+		});
+	}	
+</script>
+</body>
+</html>

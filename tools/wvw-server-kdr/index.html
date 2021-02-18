@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>激战2 各服务器 每小时击杀数据统计 - 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta itemprop="name" content="激战2 各服务器 每小时击杀数据统计">
+<meta itemprop="description" content="Guild Wars 2 WvW Server Kill/Death(KDR) Per Hour by Saber Lily.1960
+Open source on https://github.com/acbetter/gw2-kdr
+Select Time Zone (UTC offset)UTC−12:00, YUTC−11:00, XUTC−10:00, WUTC−09:30, V† --UTC−09:00, VUTC−08:00, U (USA Pacific Time)UTC−07:00, TUTC−06:00, S (USA Central Time)UTC−05:00, R (USA Eastern Time)UTC−04:00, QUTC−03:30, P† --UTC−03:00, PUTC−02:00, OUTC−01:00, NUTC±00:00, ZUTC&#43;01:00, A (Central European Time)UTC&#43;02:00, BUTC&#43;03:00, C (Russia Moscow Time)UTC&#43;03:30, C† --UTC&#43;04:00, DUTC&#43;04:30, D† --UTC&#43;05:00, EUTC&#43;05:30, E† --UTC&#43;05:45, E* --UTC&#43;06:00, FUTC&#43;06:30, F† --UTC&#43;07:00, GUTC&#43;08:00, H (China)UTC&#43;08:45, H* --UTC&#43;09:00, I (Japan, SouthKorea)UTC&#43;09:30, I† (Australian Central Standard Time) --UTC&#43;10:00, KUTC&#43;10:30, K† --UTC&#43;11:00, LUTC&#43;12:00, MUTC&#43;12:45, M* --UTC&#43;13:00, M†UTC&#43;14:00, M†{{ matchID.">
+<meta itemprop="datePublished" content="2020-10-23T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-23T00:00:00+00:00" />
+<meta itemprop="wordCount" content="293">
+
+
+
+<meta itemprop="keywords" content="" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="激战2 各服务器 每小时击杀数据统计"/>
+<meta name="twitter:description" content="Guild Wars 2 WvW Server Kill/Death(KDR) Per Hour by Saber Lily.1960
+Open source on https://github.com/acbetter/gw2-kdr
+Select Time Zone (UTC offset)UTC−12:00, YUTC−11:00, XUTC−10:00, WUTC−09:30, V† --UTC−09:00, VUTC−08:00, U (USA Pacific Time)UTC−07:00, TUTC−06:00, S (USA Central Time)UTC−05:00, R (USA Eastern Time)UTC−04:00, QUTC−03:30, P† --UTC−03:00, PUTC−02:00, OUTC−01:00, NUTC±00:00, ZUTC&#43;01:00, A (Central European Time)UTC&#43;02:00, BUTC&#43;03:00, C (Russia Moscow Time)UTC&#43;03:30, C† --UTC&#43;04:00, DUTC&#43;04:30, D† --UTC&#43;05:00, EUTC&#43;05:30, E† --UTC&#43;05:45, E* --UTC&#43;06:00, FUTC&#43;06:30, F† --UTC&#43;07:00, GUTC&#43;08:00, H (China)UTC&#43;08:45, H* --UTC&#43;09:00, I (Japan, SouthKorea)UTC&#43;09:30, I† (Australian Central Standard Time) --UTC&#43;10:00, KUTC&#43;10:30, K† --UTC&#43;11:00, LUTC&#43;12:00, MUTC&#43;12:45, M* --UTC&#43;13:00, M†UTC&#43;14:00, M†{{ matchID."/>
+
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/voidpin/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-120519766-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/voidpin/images/QQ20210124-0.jpg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</div>
+					<div class="logo__tagline">voidpin.com 来自欧服的激战2中文攻略站。An EU based guide site for CN players.</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">菜单</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">游戏资讯</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/tutorials/">
+				
+				<span class="menu__text">新手上路</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/guides/">
+				
+				<span class="menu__text">游戏攻略</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pve/">
+				
+				<span class="menu__text">P V E</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pvp/">
+				
+				<span class="menu__text">竞 技</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/wvw/">
+				
+				<span class="menu__text">世界之战</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/builds/">
+				
+				<span class="menu__text">职业配装</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/files/">
+				
+				<span class="menu__text">文件下载</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">关于我们</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">激战2 各服务器 每小时击杀数据统计</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-23T00:00:00Z">2020-10-23</time></div></div>
+		</header><div class="content post__content clearfix">
+			
+<p>Guild Wars 2 WvW Server Kill/Death(KDR) Per Hour by Saber Lily.1960</p>
+
+<p>Open source on <a href="https://github.com/acbetter/gw2-kdr" target="_blank" rel="noreferrer noopener">https://github.com/acbetter/gw2-kdr</a></p>
+
+<div id="app">
+<p>
+<select v-model="currentUtcOffset">
+    <option disabled value="">Select Time Zone (UTC offset)</option>
+    <option value="-12">UTC−12:00, Y</option>
+    <option value="-11">UTC−11:00, X</option>
+    <option value="-10">UTC−10:00, W</option>
+    <!-- <option value="-570">UTC−09:30, V†</option> -->
+    <option value="-9">UTC−09:00, V</option>
+    <option value="-8">UTC−08:00, U (USA Pacific Time)</option>
+    <option value="-7">UTC−07:00, T</option>
+    <option value="-6">UTC−06:00, S (USA Central Time)</option>
+    <option value="-5">UTC−05:00, R (USA Eastern Time)</option>
+    <option value="-4">UTC−04:00, Q</option>
+    <!-- <option value="-210">UTC−03:30, P†</option> -->
+    <option value="-3">UTC−03:00, P</option>
+    <option value="-2">UTC−02:00, O</option>
+    <option value="-1">UTC−01:00, N</option>
+    <option value="0">UTC±00:00, Z</option>
+    <option value="1">UTC+01:00, A (Central European Time)</option>
+    <option value="2">UTC+02:00, B</option>
+    <option value="3">UTC+03:00, C (Russia Moscow Time)</option>
+    <!-- <option value="210">UTC+03:30, C†</option> -->
+    <option value="4">UTC+04:00, D</option>
+    <!-- <option value="270">UTC+04:30, D†</option> -->
+    <option value="5">UTC+05:00, E</option>
+    <!-- <option value="330">UTC+05:30, E†</option> -->
+    <!-- <option value="345">UTC+05:45, E*</option> -->
+    <option value="6">UTC+06:00, F</option>
+    <!-- <option value="390">UTC+06:30, F†</option> -->
+    <option value="7">UTC+07:00, G</option>
+    <option value="8">UTC+08:00, H (China)</option>
+    <!-- <option value="525">UTC+08:45, H*</option> -->
+    <option value="9">UTC+09:00, I (Japan, SouthKorea)</option>
+    <!-- <option value="570">UTC+09:30, I† (Australian Central Standard Time)</option> -->
+    <option value="10">UTC+10:00, K</option>
+    <!-- <option value="630">UTC+10:30, K†</option> -->
+    <option value="11">UTC+11:00, L</option>
+    <option value="12">UTC+12:00, M</option>
+    <!-- <option value="765">UTC+12:45, M*</option> -->
+    <option value="13">UTC+13:00, M†</option>
+    <option value="14">UTC+14:00, M†</option>
+</select>
+</p>
+
+<div v-if="worldsDataList != null && matchesDataList != null">
+    <div class=tab>
+        <button v-for="(match, matchID) in matchesDataList" class="tablinks" v-bind:class="{ 'active' : matchID === currentMatchID }" @click="currentMatchID = matchID">{{ matchID.replace('1-', 'NA T').replace('2-', 'EU T') }}</button>
+    </div>
+    <p>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>UTC {{ currentUtcOffset }} (h/m)</th>
+                <th class="gw2c-red" v-html="computedWorlds[this.currentMatchID]['red'].join('&lt;br&gt;')"></th>
+                <th class="gw2c-blue" v-html="computedWorlds[this.currentMatchID]['blue'].join('&lt;br&gt;')"></th>
+                <th class="gw2c-green" v-html="computedWorlds[this.currentMatchID]['green'].join('&lt;br&gt;')"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="skirmish in matchesDataList[currentMatchID]['skirmishes']" :key="skirmish.id">
+            <td align="center">{{ skirmish.id }}</td>
+            <!-- <td>{{ skirmish.start_time.substring(5, 16).replace("T", " · ") }}</td> -->
+            <td align="center">{{ utcOffsetTime(skirmish.start_time) }}</td>
+            <td align="center" class="gw2c-red">{{ skirmish.kills.red }} / {{ skirmish.deaths.red }} ({{ (skirmish.kills.red/skirmish.deaths.red).toFixed(2) }})</td>
+            <td align="center" class="gw2c-blue">{{ skirmish.kills.blue }} / {{ skirmish.deaths.blue }} ({{ (skirmish.kills.blue/skirmish.deaths.blue).toFixed(2) }})</td>
+            <td align="center" class="gw2c-green">{{ skirmish.kills.green }} / {{ skirmish.deaths.green }} ({{ (skirmish.kills.green/skirmish.deaths.green).toFixed(2) }})</td>
+            </tr>
+        </tbody>
+    </table>
+    </p>
+</div>
+
+<div v-else>
+    <p>数据加载中...</p>
+    <p>Loading Data...</p>
+</div>
+
+<!-- <div>{{worldsDataList}}</div> -->
+<!-- <div>{{matchesDataList}}</div> -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.8.22/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.8.22/plugin/utc.js"></script>
+<script>
+new Vue({
+    el: "#app",
+    data: {
+        worldsDataList: null,
+        matchesDataList: null,
+        currentMatchID: "2-1",
+        currentUtcOffset: 8,
+    },
+    methods: {
+        getWorldsData() {
+            axios.get("/api/worlds.json").then((response) => (this.worldsDataList = response.data));
+        },
+        getMatchesData() {
+            axios.get("/api/matches.json").then((response) => (this.matchesDataList = response.data));
+        },
+        utcOffsetTime(time) {
+            return dayjs.utc(time).utcOffset(this.currentUtcOffset).format("MM-DD HH:mm");
+        },
+    },
+    computed: {
+        computedWorlds: function () {
+            var worlds = {};
+            for (let i in this.matchesDataList) {
+                worlds[i] = {};
+                for (let j in this.matchesDataList[i]["all_worlds"]) {
+                worlds[i][j] = [];
+                // for (let k in this.matchesDataList[i]["all_worlds"][j]) {
+                //   worlds[i][j].push(this.worldsDataList[this.matchesDataList[i]["all_worlds"][j][k]]["name"]);
+                // }
+                this.matchesDataList[i]["all_worlds"][j].forEach((element) => {
+                    worlds[i][j].unshift(this.worldsDataList[element]["name"]);
+                });
+                }
+            }
+            return worlds;
+        },
+    },
+    created() {
+        axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+        dayjs.extend(window.dayjs_plugin_utc);
+        this.getWorldsData();
+        this.getMatchesData();
+    },
+});
+</script>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+		<figure class="authorbox__avatar">
+			<img alt="总之就是非常柠檬 avatar" src="/voidpin/images/TsukuyomiTsukasa.png" class="avatar" height="90" width="90">
+		</figure>
+		<div class="authorbox__header">
+			<span class="authorbox__name"> </span>
+		</div>
+		<div class="authorbox__description">
+			<p><a href="https://space.bilibili.com/18036870" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/badge/Bilibili-%E6%80%BB%E4%B9%8B%E5%B0%B1%E6%98%AF%E9%9D%9E%E5%B8%B8%E6%9F%A0%E6%AA%AC-ff69b4?style=flat&amp;labelColor=00a1d6&amp;logo=bilibili&amp;logoColor=ff69b4" alt=""></a></p>
+<p>一个不明真相的吃瓜群众，最近正在收购柠檬。IGN: Saber Lily.1960</p>
+
+		</div>
+	
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/tools/event-timer/" rel="next">
+			<span class="pager__subtitle">下一篇&thinsp;»</span>
+			<p class="pager__title">Event Timer 事件时间表</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 voidpin.com | All trademarks and copyrights on this site are owned by their respective owners. 未经授权禁止转载、摘编、复制或建立镜像.
+			<span class="footer__copyright-credits">基于 <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> 引擎和 <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> 主题</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/voidpin/js/custom.js"></script><script async src="/npm/armory-embeds-voidpin@0.4.3/armory-embeds.js"></script>
+<script>
+  document.GW2A_EMBED_OPTIONS = {
+    lang: "zh",
+  };
+</script>
+<script src="/npm/vanilla-back-to-top@7.2.1/vanilla-back-to-top.min.js"></script>
+<script>
+  addBackToTop({
+	diameter: 56,
+	backgroundColor: 'rgb(255, 82, 82)',
+	textColor: '#fff'
+  })
+</script>
+<script>
+	window.onload = function() {
+		document.body.addEventListener('mousedown', ev => {
+			const a = event.target.closest('a');
+			if (a && a.hasAttribute('href') && a.getAttribute('href').toString().includes('guildwars2.com/wiki/Special:Search/')) {
+				const b = a.parentNode.parentNode.parentNode;
+				if (b.hasAttribute('data-armory-ids')) {
+					const c = b.getElementsByClassName('gw2a--M9jBV');
+					var wikiid = 0;
+					if (c.length > 1) {
+						for (let i = 0; i < c.length; i++) {
+							if (c[i].contains(a)) {
+								wikiid = b.getAttribute('data-armory-ids').toString().split(',')[i];
+								break;
+							}
+						}
+					} else {
+						wikiid = b.getAttribute('data-armory-ids').toString().replace(',', '');
+					}
+					a.href = 'https://wiki.guildwars2.com/wiki/Special:RunQuery/Search_by_id?title=Special%3ARunQuery%2FSearch_by_id&pfRunQueryFormName=Search+by+id&Search+by+id%5Bid%5D=' + wikiid;
+				};
+			}
+		});
+	}	
+</script>
+</body>
+</html>

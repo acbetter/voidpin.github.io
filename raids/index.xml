@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>团队副本 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
+    <link>/raids/</link>
+    <description>Recent content in 团队副本 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/raids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SC Raid Builds 团本配装</title>
+      <link>/raids/snowcrows/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/raids/snowcrows/</guid>
+      <description>本站所有团本配装均来自 Snow Crows 官方网站，转载已经过 Harry 许可。
+All raid builds under this category are owned by Snow Crows and reprinted with permission of Harry.
+各 Build 的翻译正在施工中，目前完成度：95%。Benchmarks 样式正在修改中，目前翻译完成度：0%。
+ 元素使 直伤暴风使 | 症状暴风使 | 治疗暴风使 | 直伤编织者 | 症状编织者
+ 工程师 治疗机械师 | 直伤全息师 | 症状全息师
+ 守护者 直伤守护者 | 直伤猎龙者 | 症状燃火者 | 症状急速燃火者 | 治疗急速燃火者
+ 幻术师 直伤增益时空术士 | 症状增益时空术士 | 直伤时空术士 | 症状时空术士 | 症状幻象术士
+ 死灵法师 直伤夺魂者 | 症状灾厄师 | 治疗灾厄师</description>
+    </item>
+    
+    <item>
+      <title>团队副本：入门</title>
+      <link>/raids/raid-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/raids/raid-intro/</guid>
+      <description>1. 前言 2. 角色定位  2.1. 输出 DPS 2.2. 辅助 SUPPORT 2.3. 控制 CONTROL   3. 构建 Build 的两大目标  3.1. 追求极限 3.2. 多面手   4. 队伍要求  4.1. 关键性增益 4.2. 额外 Buff  4.2.1. “非关键性”增益 4.2.2. 独特的 Buff 4.2.3. 关键性症状 4.2.4. 拉拽/群体伤害 4.2.5. 暴击几率     5. 团队构成解析  5.1. 急速来源 5.2. 敏捷来源 5.3. 威能和激怒来源 5.4. 治疗者 5.5. 独特 Buff 的来源   6. 常规团队构成 7.</description>
+    </item>
+    
+    <item>
+      <title>团队副本：入门配装</title>
+      <link>/raids/raid-build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/raids/raid-build/</guid>
+      <description>总体原则 强烈推荐  症状魂兽师 直伤全息师 直伤独行侠 急速燃火者   推荐  症状燃火者 直伤猎龙者 直伤插旗狂战士 直伤夺魂者 治疗暴风使 治疗灾厄师   当然，你也可以选择  治疗德鲁伊和敏捷龙魂使   致谢  总体原则 如果你是 团队副本（Raid） 的新手，使用简单的 Build 有助于你专注于学习应对和处理机制。选择下文中的 Builds 是基于以下要求：
+  强大的自动攻击（如果是 DPS ），使玩家可以在不熟悉的情况下尽可能多地在 Boss 战中贡献输出；
+  简单的输出循环（Rotation），使玩家可以快速学习和进步；
+  部分 Builds 在水平较高的玩家手中依然非常强力而有效，因此在后期也可以作为不错的选择；
+  承担较小的处理机制职责；
+  适用于大多数 Boss 战。
+   强烈推荐 症状魂兽师 症状魂兽师 的输出循环本身就较简单，新手也可以选择更简单的 症状纯短弓魂兽师。
+只使用短弓移除了贴身近战的要求，输出循环也更加宽松，也移除了 需要将  作用于特定技能的要求。</description>
+    </item>
+    
+    <item>
+      <title>进攻任务攻略</title>
+      <link>/raids/strike-mission-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/raids/strike-mission-guide/</guid>
+      <description>1. 简介 2. 奖励  2.1. 先知水晶 2.2. 每日优先进攻任务   3. 推荐配装 4. 攻略  4.1. 席瓦雪山小径 4.2. 亡者之音和亡者之爪 4.3. 卓玛爪牙法兰涅尔 4.4. 骸骨剥皮怪 4.5. 霜渊之音 4.6. 锻造钢铁 4.7. 冷战 4.8. 雪人秘巢    1. 简介  维基链接：https://wiki.guildwars2.com/wiki/Strike_Mission
+ 进攻任务 是 1-10 名玩家的团队可以参与的 PVE 副本，难度介于开放世界（Open World）和团队副本（Raid）难度之间。每个任务只有一场 Boss 战。
+所有进攻任务都可以从 北方之眼（Eye of the North） 进入。请熟练使用 LFG 寻找并加入队伍。
+如果不熟悉某些术语，请查阅 常用游戏术语。
+   # 英文名称 中文名称 难度     1 Shiverpeaks Pass 席瓦雪山小径 简单   2 Voice of the Fallen and Claw of the Fallen 亡者之音和亡者之爪 简单   3 Fraenir of Jormag 卓玛爪牙法兰涅尔 简单   4 Boneskinner 骸骨剥皮怪 困难   5 Whisper of Jormag 霜渊之音 困难   6 Forging Steel 锻造钢铁 简单   7 Cold War 冷战 中等   特殊 Secret Lair of the Snowmen1 雪人秘巢 中等    1: 仅在冬幕节可玩。</description>
+    </item>
+    
+  </channel>
+</rss>

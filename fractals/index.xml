@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>迷雾碎层 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
+    <link>/fractals/</link>
+    <description>Recent content in 迷雾碎层 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/fractals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>桑泉峰：挑战模式攻略</title>
+      <link>/fractals/sunqua-peak-cm/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/fractals/sunqua-peak-cm/</guid>
+      <description>1. 挑战模式说明  辅助角色 输出角色 推荐配置 其他要点   2. Boss 机制说明  P1 艾，颠峰守护者 Ai, Keeper of the Peak P2 内心恶魔 Inner Demon   3. 隐藏成就 4. 挑战模式演示   1. 挑战模式说明 如果还不熟悉该碎层，请先阅读 桑泉峰：普通模式攻略。
+在完成普通模式所有成就之后，再次进入 100 级桑泉峰碎层，你可以开启挑战模式。与 挑战微尘 对话并接受先驱的考验，先驱会直接打开一个通往最终 Boss 的传送门。
+每日通关后，你会获得 40x 。
+由于该 Boss 频繁移动和施放技能，应对该 Boss 时推荐使用以下配置：
+辅助角色  治疗急速燃火者，症状急速燃火者，治疗敏捷龙魂使，治疗灾厄师；  输出角色  症状龙魂使，高额的 折磨 伤害，优秀的功能性；（如果队伍中存在 2 个或多个 症状龙魂使，可以都点出  特性并使用 ，移除队伍对 敏捷龙魂使 的需求。）
+ 症状燃火者：优秀的 燃烧 爆发伤害，优秀的功能性；（预读 正义余烬 来提高起手爆发；使用  代替纹章，一个非常有用的高额 cc 技能。）</description>
+    </item>
+    
+    <item>
+      <title>桑泉峰：普通模式攻略</title>
+      <link>/fractals/sunqua-peak-walkthrough/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/fractals/sunqua-peak-walkthrough/</guid>
+      <description>1. 9月15日更新改动 2. 通关流程和 Boss 打法  2.1. Voice of the Mountain 2.2. Fury of the Mountain 2.3. Sorrowful Spellcaster   3. 成就  3.1. Respect for the Dead 尊重死者 3.2. Another Side, Another Story 花开两朵，各表一枝 3.3. Energy Dispersal 能量驱散   4. 普通模式通关演示   1. 9月15日更新改动 桑泉峰 成为了 100 级碎层。“破碎观测台”成为 99 级，“噩梦”成为 98 级碎层。
+通关挑战模式将不再获得 ，而是 。
+在碎层的 BLING-9009 处可以将 1 个  兑换为 5个 ，并且可以购买  和 深渊碎层武器（如 ）。</description>
+    </item>
+    
+    <item>
+      <title>迷雾碎层：队伍配置</title>
+      <link>/fractals/team-composition/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/fractals/team-composition/</guid>
+      <description>什么是 Meta Builds 碎层速刷的基本要求 当前的碎层 Meta 配置 PuG 野队配置 Meta 队伍和 PuG 野队的区别  本文将讲解碎层速刷的基本要求，以及当前版本 Meta 队伍的配置以及建议你在野队使用的职业和配装。（内容来自 Discretize。）
+ 什么是 Meta Builds  引用自 discretize.eu ： 关于 meta builds 的解释有很多，但我们认为 urbandictionary 的定义是最准确的：meta 是“在 MMO 中​​使用的术语，指 可用的最有效策略 （the Most Effective Tactic Available）。基本上，无论你的目的如何，meta 都可以在游戏中起作用。 ”
+许多玩家每天都在使用某些 非 meta 的队伍组成/打法来完成碎层日常，并不能将这些策略（打法）定义为 meta。这些打法可以为他们的目标充分发挥作用——不灭团并且安全地打完通关——但是，它们不是最快或最有效的游戏方式。
+因此，碎层的 meta 不仅包括最有效的职业+队伍构成，而且还包括这些职业如何操作——即应使用哪种循环 （Rotation）。
+ 在中文语境中，Meta Builds 可以近似地理解为 最有效最强力的配装；但相应地，学习难度可能也较大。
+基于提升效率和追求卓越的理念，DT 介绍和推广 Meta 配装不但是为了提升单个玩家和队伍的通关效率，还旨在提升《激战2》中的碎层玩家整体的游戏效率和游戏水平，从而精简每日碎层通关的流程，缩短通关时间，在长周期的游戏中节省大量的时间。
+ 碎层速刷的基本要求   以下三项要素非常重要，需要在战斗中常驻。缺少其中任意一项都将降低通关的速度和流畅程度：
+ 增益：25 层 威能，激怒，急速 和 敏捷。 迅速地 破蔑视，获取 暴露 带来的 50% 伤害加成。 高额的单体输出爆发能力。     要理解的关键是，这三项要素结合在一起创造了极高的爆发，使战斗的每个小阶段可以仅持续数秒钟。这也是由于 暴露 带来的伤害加成能够与许多其他的伤害加成叠加的缘故。</description>
+    </item>
+    
+    <item>
+      <title>迷雾碎层：入门</title>
+      <link>/fractals/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fractals/basics/</guid>
+      <description>1. 前言 2. 碎层介绍  2.1. 雾锁观测台 2.2. 碎层一览 2.3. 难度 2.4. 痛苦 2.6. 雾锁奇点 2.7. 雾锁异变 2.8. 碎层专精 2.9. 碎层药剂 2.10. 账号升级 2.11. 推荐升级路线   3. 碎层基础  3.1. 了解队伍构成 3.2. 选择职业和配装 3.3. LFG 搜寻队伍常用缩写 3.4. 学会使用 /gg 命令 3.5. 了解雾锁异变 3.6. 学会在雾锁奇点处开场预读 prebuff  教学视频   3.7. 了解和学会破蔑视 CC   4. 碎层打法 5. 致谢  1. 前言 本文是面向初学者和中等水平玩家的关于《激战 2 》中的迷雾碎层的入门级介绍，主要包括碎层基础内容的说明、队伍构成和各个角色的定位，并对基础机制进行讲解。
+如果不熟悉某些术语，请查阅 常用游戏术语。
+ 2. 碎层介绍 迷雾碎层 Fractals of the Mists （FotM，碎层） 是一种围绕 Boss 战斗和机制设计的 5 人地下城副本模式，是《激战 2》中最具有挑战性、奖励最丰厚以及最有趣的内容之一。</description>
+    </item>
+    
+    <item>
+      <title>迷雾碎层：进阶</title>
+      <link>/fractals/advance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fractals/advance/</guid>
+      <description>1. 消耗品和道具  1.1. 通用消耗品和道具 1.2. 破蔑视消耗品 1.3. 特定增伤物品 1.4. 各碎层增伤物品   2. 技能使用进阶  2.1. CC 的分配（更新中）  2.1.1. 症状 CC 量一览 2.1.2. 挑战模式 CC 分配（更新中）   2.2. 应对特定战斗场景的常用技能  2.2.1. 应对投射物 2.2.2. 格挡、闪避和无敌     3. 致谢  1. 消耗品和道具  原文：https://discretize.eu/guides/consumables
+ ★ 标记 表示推荐获取； ▲ 标记 表示可选。
+1.1. 通用消耗品和道具    名称 获取方式 说明     ▲ ：700  使用2技能提高移动能力，然后切武器取消最后技能的一段。可以借助 迅捷 甚至 奔驰急速 来狂飙。   ★ 赌场商人：1000  另一个理想的加速道具。受迅捷、 奔驰急速、急速 和 敏捷 加成。   ▲ 在 团队副本 中获取 可以用来创造连接两个地点的传送门，类似于 幻术师的  技能。冷却时间为 30分钟，可以用两次 /gg 命令重置。   ★ Forager Hitkiti 提供 3秒的 潜行，冷却时间 6秒。    Agent Rexx 提供 3秒的 潜行，冷却时间 60秒。   ★ Kyra Sharptracker 提供 10秒的 潜行，一旦移动就会解除，可以用来开 地下设施碎层 的机关。    冬幕节 用来解除昏迷。    1.</description>
+    </item>
+    
+    <item>
+      <title>迷雾碎层：配装</title>
+      <link>/fractals/build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fractals/build/</guid>
+      <description>本文介绍了来自 Discretize(DT) 网站的所有职业配装 （Builds），帮助你根据你的游戏风格选择适合自己的职业。
+ 配装一览  Meta Builds Offmeta Builds Other Builds    配装一览 碎层配装 通常分为三种角色定位：输出（DPS），进攻型辅助 和 防御型辅助。Meta 队伍只由输出和进攻型辅助构成。
+ Meta 是在队伍中表现最佳的 Builds，使用 Meta 的目标是最快最效率地完成所有碎层日常。相应地，难度也相对较高。 Offmeta 是用于替代 Meta 的 Builds，仍然具有出色的表现，但在理想情况下的表现弱于 Meta。 Other 是用于 T4 难度使用的 Builds，不推荐在挑战模式中使用。   Meta Builds    DPS 辅助     直伤魂兽师 1. 上手困难，也难于精通；2. 高额伤害；3. 可以延长自身和队伍的增益持续时间；4.需要对战斗流程有一定的理解来调整站位；5. 在非固定队中使用会困难一些。 直伤敏捷龙魂使 1. 上手容易，难于精通；2. 在Meta 队伍中是伤害最低的，但是这部分伤害仍然很重要；3. 为队伍提供 敏捷，威能 和 保护；4. 为队伍带来强大的 Buff：  和 。   直伤编织者 1.</description>
+    </item>
+    
+  </channel>
+</rss>

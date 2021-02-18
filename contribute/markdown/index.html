@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Markdown 语法示例及书写规范 - 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta itemprop="name" content="Markdown 语法示例及书写规范">
+<meta itemprop="description" content="A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).">
+<meta itemprop="datePublished" content="2020-09-26T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-09-26T00:00:00+00:00" />
+<meta itemprop="wordCount" content="816">
+
+
+
+<meta itemprop="keywords" content="" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown 语法示例及书写规范"/>
+<meta name="twitter:description" content="A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF)."/>
+
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/voidpin/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-120519766-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/voidpin/images/QQ20210124-0.jpg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</div>
+					<div class="logo__tagline">voidpin.com 来自欧服的激战2中文攻略站。An EU based guide site for CN players.</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">菜单</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">游戏资讯</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/tutorials/">
+				
+				<span class="menu__text">新手上路</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/guides/">
+				
+				<span class="menu__text">游戏攻略</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pve/">
+				
+				<span class="menu__text">P V E</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pvp/">
+				
+				<span class="menu__text">竞 技</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/wvw/">
+				
+				<span class="menu__text">世界之战</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/builds/">
+				
+				<span class="menu__text">职业配装</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/files/">
+				
+				<span class="menu__text">文件下载</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">关于我们</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Markdown 语法示例及书写规范</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-26T00:00:00Z">2020-09-26</time></div></div>
+		</header><div class="content post__content clearfix">
+			<p>A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).</p>
+<hr>
+<p>目录</p>
+<ul>
+<li><a href="#%e5%8c%ba%e5%9d%97-div">区块 div</a></li>
+<li><a href="#%e6%a0%87%e9%a2%98">标题</a></li>
+<li><a href="#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98">二级标题</a>
+<ul>
+<li><a href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98">三级标题</a>
+<ul>
+<li><a href="#%e5%9b%9b%e7%ba%a7%e6%a0%87%e9%a2%98">四级标题</a>
+<ul>
+<li><a href="#%e4%ba%94%e7%ba%a7%e6%a0%87%e9%a2%98">五级标题</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%e6%ae%b5%e8%90%bd%e6%8d%a2%e8%a1%8c">段落（换行）</a></li>
+<li><a href="#%e5%bc%95%e7%94%a8">引用</a></li>
+<li><a href="#%e5%88%97%e8%a1%a8">列表</a>
+<ul>
+<li><a href="#%e6%97%a0%e5%ba%8f%e5%88%97%e8%a1%a8">无序列表</a></li>
+<li><a href="#%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8">有序列表</a></li>
+<li><a href="#%e5%88%97%e8%a1%a8%e6%b7%b7%e6%8e%92">列表混排</a></li>
+<li><a href="#%e5%88%97%e8%a1%a8%e5%b5%8c%e5%a5%97">列表嵌套</a></li>
+</ul>
+</li>
+<li><a href="#%e4%bb%a3%e7%a0%81%e5%9d%97">代码块</a></li>
+<li><a href="#%e5%88%86%e9%9a%94%e7%ba%bf">分隔线</a></li>
+<li><a href="#%e8%a1%a8%e6%a0%bc">表格</a>
+<ul>
+<li><a href="#%e7%ae%80%e5%8d%95%e8%a1%a8%e6%a0%bc">简单表格</a></li>
+<li><a href="#%e5%b7%a6%e5%af%b9%e9%bd%90%e5%8f%b3%e5%af%b9%e9%bd%90%e5%b1%85%e4%b8%ad">左对齐、右对齐、居中</a></li>
+<li><a href="#%e5%8d%95%e5%85%83%e6%a0%bc%e5%90%88%e5%b9%b6">单元格合并</a></li>
+</ul>
+</li>
+<li><a href="#%e8%a1%8c%e5%86%85-span">行内 span</a></li>
+<li><a href="#%e9%a2%9c%e8%89%b2">颜色</a></li>
+<li><a href="#%e6%96%9c%e4%bd%93%e5%8a%a0%e7%b2%97%e5%88%a0%e9%99%a4%e7%ba%bf%e4%b8%8b%e5%88%92%e7%ba%bf">斜体、加粗、删除线、下划线</a></li>
+<li><a href="#%e9%93%be%e6%8e%a5">链接</a></li>
+<li><a href="#%e5%9b%be%e7%89%87">图片</a></li>
+<li><a href="#%e6%b8%b8%e6%88%8f">游戏</a></li>
+</ul>
+<hr>
+<h2 id="区块-div">区块 div</h2>
+<p>区块元素的主要特征是换行。</p>
+<h2 id="标题">标题</h2>
+<p>HTML Tags: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code></p>
+<p>一级标题略</p>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"># 一级标题
+
+<span style="color:#75715e">## 二级标题
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">### 三级标题
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#### 四级标题
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">##### 五级标题
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">###### 六级标题
+</span></code></pre></div><h2 id="段落换行">段落（换行）</h2>
+<p>HTML Tags: <code>&lt;p&gt;</code></p>
+<p>想换行？一个回车不管用，得两个回车。一个回车相当于一个空格。</p>
+<p>这是第
+一段。</p>
+<p>这是第二段。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">这是第
+一段。
+
+这是第二段。
+</code></pre></div><h2 id="引用">引用</h2>
+<p>HTML Tag: <code>&lt;blockquote&gt;</code></p>
+<blockquote>
+<p>我是第一句。balabalabalabalabalaba.
+我是第二句。</p>
+<p>我是第三句。balabalabalabalabalaba.</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">我是第一句。balabalabalabalabalaba.
+</span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">我是第二句。
+</span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt;
+</span><span style="color:#66d9ef"></span><span style="font-style:italic">&gt; 我是第三句。balabalabalabalabalaba.
+</span></code></pre></div><p>引用中还可以嵌套另一个引用。</p>
+<blockquote>
+<p>我是第一句。</p>
+<blockquote>
+<p>我是第二句。</p>
+</blockquote>
+<p>我是第三句。</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">我是第一句。
+</span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic"> &gt; 我是第二句。
+</span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt;
+</span><span style="color:#66d9ef"></span><span style="font-style:italic">&gt; 我是第三句。
+</span></code></pre></div><h2 id="列表">列表</h2>
+<h3 id="无序列表">无序列表</h3>
+<p>HTML Tag: <code>&lt;ul&gt;</code></p>
+<p>Note: 我们只使用 <code>-</code>. 不使用 <code>+</code> 和 <code>*</code>。</p>
+<p><code>*</code> 和列表项直接保留一个空格，有序列表同理。</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> Red
+<span style="color:#66d9ef">-</span> Green
+<span style="color:#66d9ef">-</span> Blue
+</code></pre></div><h3 id="有序列表">有序列表</h3>
+<p>HTML Tag: <code>&lt;ol&gt;</code></p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">1.</span> Bird
+<span style="color:#66d9ef">2.</span> McHale
+<span style="color:#66d9ef">3.</span> Parish
+</code></pre></div><p>特定写法会导致渲染错误，所以我们需要加入 <strong>backslash-escape (\)</strong> 反斜杠。</p>
+<ol start="1986">
+<li>What a great season.</li>
+</ol>
+<p>1986. What a great season.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">1986.</span> What a great season.
+
+1986\. What a great season.
+</code></pre></div><h3 id="列表混排">列表混排</h3>
+<ul>
+<li>A list item with a blockquote:
+<blockquote>
+<p>This is a blockquote
+inside a list item.</p>
+</blockquote>
+</li>
+<li>B list item</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> A list item with a blockquote:
+<span style="color:#66d9ef">  &gt; </span><span style="font-style:italic">This is a blockquote
+</span><span style="font-style:italic"></span><span style="color:#66d9ef">  &gt; </span><span style="font-style:italic">inside a list item.
+</span><span style="font-style:italic"></span><span style="color:#66d9ef">-</span> B list item
+</code></pre></div><h3 id="列表嵌套">列表嵌套</h3>
+<p>在 VS Code 中，可以用 Tab 和 Shift+Tab 控制缩进。</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish
+<ol>
+<li>xd</li>
+<li>xxd
+<ul>
+<li>xd</li>
+<li>xxd</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">1.</span> Bird
+<span style="color:#66d9ef">2.</span> McHale
+<span style="color:#66d9ef">3.</span> Parish
+   <span style="color:#66d9ef">1.</span> xd
+   <span style="color:#66d9ef">2.</span> xxd
+      <span style="color:#66d9ef">-</span> xd
+      <span style="color:#66d9ef">-</span> xxd
+</code></pre></div><h2 id="代码块">代码块</h2>
+<p>HTML Tag: <code>&lt;pre&gt;</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">This is a code block.
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">    ```markdown
+    This is a code block.
+    ```
+（去掉前面的空格）
+</code></pre></div><h2 id="分隔线">分隔线</h2>
+<p>HTML Tag: <code>&lt;hr /&gt;</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
+</code></pre></div><h2 id="表格">表格</h2>
+<p>HTML Tag: <code>&lt;table&gt;</code></p>
+<h3 id="简单表格">简单表格</h3>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td>
+<td>456</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| A   | B   |
+| --- | --- |
+| 123 | 456 |
+</code></pre></div><h3 id="左对齐右对齐居中">左对齐、右对齐、居中</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Left</th>
+<th style="text-align:center">Center</th>
+<th style="text-align:right">Right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">aaa</td>
+<td style="text-align:center">bbb</td>
+<td style="text-align:right">ccc</td>
+</tr>
+<tr>
+<td style="text-align:left">ddd</td>
+<td style="text-align:center">eee</td>
+<td style="text-align:right">fff</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| Left | Center | Right |
+| :--- | :----: | ----: |
+| aaa  |  bbb   |   ccc |
+| ddd  |  eee   |   fff |
+</code></pre></div><h3 id="单元格合并">单元格合并</h3>
+<p>建议使用 <a href="https://www.tablesgenerator.com/html_tables">https://www.tablesgenerator.com/html_tables</a> 生成模版。记得勾选 <code>Do not generate CSS</code>。</p>
+<table>
+<thead>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="4">a</td>
+    <td><b>b</b></td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+    <td rowspan="2">g</td>
+  </tr>
+  <tr>
+    <td>h</td>
+    <td>i</td>
+    <td>j</td>
+    <td>k</td>
+  </tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">table</span>&gt;
+&lt;<span style="color:#f92672">thead</span>&gt;
+  &lt;<span style="color:#f92672">tr</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;1&lt;/<span style="color:#f92672">th</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;2&lt;/<span style="color:#f92672">th</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;3&lt;/<span style="color:#f92672">th</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;4&lt;/<span style="color:#f92672">th</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;5&lt;/<span style="color:#f92672">th</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+&lt;/<span style="color:#f92672">thead</span>&gt;
+&lt;<span style="color:#f92672">tbody</span>&gt;
+  &lt;<span style="color:#f92672">tr</span>&gt;
+    &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">colspan</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;4&#34;</span>&gt;a&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;b&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">td</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+  &lt;<span style="color:#f92672">tr</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;c&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;d&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;e&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;f&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">rowspan</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;2&#34;</span>&gt;g&lt;/<span style="color:#f92672">td</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+  &lt;<span style="color:#f92672">tr</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;h&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;i&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;j&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;k&lt;/<span style="color:#f92672">td</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+&lt;/<span style="color:#f92672">tbody</span>&gt;
+&lt;/<span style="color:#f92672">table</span>&gt;
+</code></pre></div><h2 id="行内-span">行内 span</h2>
+<p>行内元素的主要特征是不换行。</p>
+<p>For any markup that is not covered by Markdown’s syntax, you simply use HTML itself. There’s no need to preface it or delimit it to indicate that you’re switching from Markdown to HTML; you just use the tags.</p>
+<p>Note that Markdown formatting syntax is <strong>not processed within block-level HTML tags</strong>.</p>
+<p>Unlike block-level HTML tags, Markdown syntax is <strong>processed within span-level tags</strong>.</p>
+<p><span><strong>Work</strong></span></p>
+<div>**Not Work**</div>
+<div>
+  **Not Work**
+</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">span</span>&gt;**Work**&lt;/<span style="color:#f92672">span</span>&gt;
+
+&lt;<span style="color:#f92672">div</span>&gt;**Not Work**&lt;/<span style="color:#f92672">div</span>&gt;
+
+&lt;<span style="color:#f92672">div</span>&gt;
+  <span style="font-weight:bold">**Not Work**</span>
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><h2 id="颜色">颜色</h2>
+<p>颜色自带加粗，使用时既不需要使用 <code>&lt;b&gt;&lt;/b&gt;</code> 标签，也不需要使用 <code>**x**</code>。</p>
+<ul>
+<li><span class="gw2b-junk">Junk</span> <code>&lt;span class=&quot;gw2b-junk&quot;&gt;Junk&lt;/span&gt;</code></li>
+<li><span class="gw2b-basic">Basic</span> <code>&lt;span class=&quot;gw2b-basic&quot;&gt;Basic&lt;/span&gt;</code></li>
+<li><span class="gw2b-fine">Fine</span> <code>&lt;span class=&quot;gw2b-fine&quot;&gt;Fine&lt;/span&gt;</code></li>
+<li><span class="gw2b-masterwork">Masterwork</span> <code>&lt;span class=&quot;gw2b-masterwork&quot;&gt;Masterwork&lt;/span&gt;</code></li>
+<li><span class="gw2b-rare">Rare</span> <code>&lt;span class=&quot;gw2b-rare&quot;&gt;Rare&lt;/span&gt;</code></li>
+<li><span class="gw2b-exotic">Exotic</span> <code>&lt;span class=&quot;gw2b-exotic&quot;&gt;Exotic&lt;/span&gt;</code></li>
+<li><span class="gw2b-ascended">Ascended</span> <code>&lt;span class=&quot;gw2b-ascended&quot;&gt;Ascended&lt;/span&gt;</code></li>
+<li><span class="gw2b-legendary">Legendary</span> <code>&lt;span class=&quot;gw2b-legendary&quot;&gt;Legendary&lt;/span&gt;</code></li>
+</ul>
+<p>除了上述的品质颜色，我们还添加了下面几种常用颜色。</p>
+<ul>
+<li><span class="gw2c-dark">Dark</span> <code>&lt;span class=&quot;gw2c-dark&quot;&gt;Dark&lt;/span&gt;</code></li>
+<li><span class="gw2c-green">Green</span> <code>&lt;span class=&quot;gw2c-green&quot;&gt;Green&lt;/span&gt;</code></li>
+<li><span class="gw2c-yellow">Yellow</span> <code>&lt;span class=&quot;gw2c-yellow&quot;&gt;Yellow&lt;/span&gt;</code></li>
+<li><span class="gw2c-orange">Orange</span> <code>&lt;span class=&quot;gw2c-orange&quot;&gt;Orange&lt;/span&gt;</code></li>
+<li><span class="gw2c-red">Red</span> <code>&lt;span class=&quot;gw2c-red&quot;&gt;Red&lt;/span&gt;</code></li>
+<li><span class="gw2c-redd">Redd</span> <code>&lt;span class=&quot;gw2c-redd&quot;&gt;Redd&lt;/span&gt;</code></li>
+<li><span class="gw2c-blue">Blue</span> <code>&lt;span class=&quot;gw2c-blue&quot;&gt;Blue&lt;/span&gt;</code></li>
+<li><span class="gw2c-gray">Gray</span> <code>&lt;span class=&quot;gw2c-gray&quot;&gt;Gray&lt;/span&gt;</code></li>
+<li><span class="gw2c-blue-gray">Blue Gray</span> <code>&lt;span class=&quot;gw2c-blue-gray&quot;&gt;Blue Gray&lt;/span&gt;</code></li>
+</ul>
+<p>Markdown 表格中的颜色</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>这是 <span class="gw2c-blue">Blue</span> 蓝色</td>
+<td>456</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| A                                             | B   |
+| --------------------------------------------- | --- |
+| 这是 &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gw2c-blue&#34;</span>&gt;Blue&lt;/<span style="color:#f92672">span</span>&gt; 蓝色 | 456 |
+</code></pre></div><p>HTML 表格中的颜色</p>
+<table>
+<thead>
+  <tr>
+    <th class="gw2b-ascended">1</th>
+    <th>2</th>
+    <th>3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>a</td>
+    <td class="gw2c-blue">blue</td>
+    <td>这是 <span class="gw2c-green">Green</span> 绿色</td>
+  </tr>
+  <tr class="gw2b-exotic">
+    <td>def</td>
+    <td>h</td>
+    <td>ijk</td>
+  </tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">table</span>&gt;
+&lt;<span style="color:#f92672">thead</span>&gt;
+  &lt;<span style="color:#f92672">tr</span>&gt;
+    &lt;<span style="color:#f92672">th</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gw2b-ascended&#34;</span>&gt;1&lt;/<span style="color:#f92672">th</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;2&lt;/<span style="color:#f92672">th</span>&gt;
+    &lt;<span style="color:#f92672">th</span>&gt;3&lt;/<span style="color:#f92672">th</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+&lt;/<span style="color:#f92672">thead</span>&gt;
+&lt;<span style="color:#f92672">tbody</span>&gt;
+  &lt;<span style="color:#f92672">tr</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;a&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gw2c-blue&#34;</span>&gt;blue&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;这是 &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gw2c-green&#34;</span>&gt;Green&lt;/<span style="color:#f92672">span</span>&gt; 绿色&lt;/<span style="color:#f92672">td</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+  &lt;<span style="color:#f92672">tr</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gw2b-exotic&#34;</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;def&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;h&lt;/<span style="color:#f92672">td</span>&gt;
+    &lt;<span style="color:#f92672">td</span>&gt;ijk&lt;/<span style="color:#f92672">td</span>&gt;
+  &lt;/<span style="color:#f92672">tr</span>&gt;
+&lt;/<span style="color:#f92672">tbody</span>&gt;
+&lt;/<span style="color:#f92672">table</span>&gt;
+</code></pre></div><h2 id="斜体加粗删除线下划线">斜体、加粗、删除线、下划线</h2>
+<p>HTML Tags: <code>&lt;em&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;strong&gt;&lt;em&gt;</code>, <code>&lt;del&gt;</code>, <code>&lt;u&gt;</code></p>
+<p><em>斜体字</em></p>
+<p><strong>加粗字</strong></p>
+<p><em><strong>斜体加粗字</strong></em></p>
+<p><del>删除线</del></p>
+<p><u>下划线</u></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">*斜体字*
+
+<span style="font-weight:bold">**加粗字**</span>
+
+<span style="font-weight:bold">***斜体加粗字**</span>*
+
+<span style="color:#f92672">~~删除线~~</span>
+
+&lt;<span style="color:#f92672">u</span>&gt;下划线&lt;/<span style="color:#f92672">u</span>&gt;
+</code></pre></div><h2 id="链接">链接</h2>
+<p>HTML Tag: <code>&lt;a&gt;</code></p>
+<p><a href="http://example.org/">http://example.org/</a></p>
+<p>This is <a href="http://example.com/" title="Title" target="_blank" rel="noreferrer noopener">an example</a> inline link.</p>
+<p><a href="http://example.net/" target="_blank" rel="noreferrer noopener">This link</a> has no title attribute.</p>
+<p>This is <a href="http://example.com/" title="Optional Title Here" target="_blank" rel="noreferrer noopener">an example</a> reference-style link.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">http:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">example</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">org</span>/&gt;
+
+This is [<span style="color:#f92672">an example</span>](<span style="color:#a6e22e">http://example.com/ &#34;Title&#34;</span>) inline link.
+
+[<span style="color:#f92672">This link</span>](<span style="color:#a6e22e">http://example.net/</span>) has no title attribute.
+
+[id]: http://example.com/  &#34;Optional Title Here&#34;
+
+This is [an example][id] reference-style link.
+</code></pre></div><h2 id="图片">图片</h2>
+<p>本地图片应放在 md 文件同目录下的 <code>_media</code> 文件夹。</p>
+<p>HTML Tag: <code>&lt;img /&gt;</code></p>
+<p><img src="/path/to/img.jpg" alt="Alt text"></p>
+<p><img src="/path/to/img.jpg" alt="Alt text" title="Optional title"></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">Alt text</span>](<span style="color:#a6e22e">/path/to/img.jpg</span>)
+
+![<span style="color:#f92672">Alt text</span>](<span style="color:#a6e22e">/path/to/img.jpg &#34;Optional title&#34;</span>)
+</code></pre></div><h2 id="游戏">游戏</h2>
+<p>武器技能 <div data-armory-embed="skills" data-armory-ids="12466,12480,12490,12620,12621,,31796,31889,31535,31700,31496" data-armory-size="40"></div></p>
+<p>字号加大 <div data-armory-embed="skills" data-armory-ids="31796,31406,31318,31894,31503,,31869" data-armory-size="60"></div></p>
+<p>行内技能 <span data-armory-embed="skills" data-armory-ids="12466" data-armory-size="20" data-armory-inline-text="wiki"></span> 示例</p>
+<p>行内特性 <span data-armory-embed="traits" data-armory-ids="572" data-armory-size="20" data-armory-inline-text="wiki"></span> 示例</p>
+<p>行内物品 <span data-armory-embed="items" data-armory-ids="1379" data-armory-size="20" data-armory-inline-text="wiki"></span> 示例</p>
+<p>多个物品 <div data-armory-embed="items" data-armory-ids="68634,67528,-1,77632" data-armory-size="40"></div></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">武器技能 &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;12466,12480,12490,12620,12621,,31796,31889,31535,31700,31496&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;40&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+
+字号加大 &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;31796,31406,31318,31894,31503,,31869&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;60&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+
+行内技能 &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;12466&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; 示例
+
+行内特性 &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;traits&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;572&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; 示例
+
+行内物品 &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;items&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1379&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; 示例
+
+多个物品 &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;items&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;68634,67528,-1,77632&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;40&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+
+</code></pre></div><p>表格例子</p>
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><div data-armory-embed="items" data-armory-ids="68634,67528,-1,77632" data-armory-size="40"></div> + <div data-armory-embed="items" data-armory-ids="68634,67528,-1,77632" data-armory-size="40"></div></td>
+<td>b</td>
+<td>c</td>
+</tr>
+<tr>
+<td>a</td>
+<td><span data-armory-embed="items" data-armory-ids="68314" data-armory-size="20" data-armory-inline-text="wiki"></span> + <span data-armory-embed="items" data-armory-ids="1379" data-armory-size="20" data-armory-inline-text="wiki"></span></td>
+<td>c</td>
+</tr>
+<tr>
+<td>a</td>
+<td>b</td>
+<td><span data-armory-embed="traits" data-armory-ids="572" data-armory-size="20" data-armory-inline-text="wiki"></span> + <span data-armory-embed="traits" data-armory-ids="572" data-armory-size="20" data-armory-inline-text="wiki"></span></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| a                                                                                                                                                                                                       | b                                                                                                                                                                                                                                         | c                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;items&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;68634,67528,-1,77632&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;40&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt; + &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;items&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;68634,67528,-1,77632&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;40&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt; | b                                                                                                                                                                                                                                         | c                                                                                                                                                                                                                                         |
+| a                                                                                                                                                                                                       | &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;items&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1379&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; + &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;items&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1379&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; | c                                                                                                                                                                                                                                         |
+| a                                                                                                                                                                                                       | b                                                                                                                                                                                                                                         | &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;traits&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;572&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; + &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;traits&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;572&#34;</span> <span style="color:#a6e22e">data-armory-size</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20&#34;</span> <span style="color:#a6e22e">data-armory-inline-text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wiki&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; |
+</code></pre></div><p>下面以游侠的 Specializations 举例。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;specializations&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;30&#34;</span> <span style="color:#a6e22e">data-armory-30-traits</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1069,1016,1064&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;specializations&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;25&#34;</span> <span style="color:#a6e22e">data-armory-25-traits</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;978,964,1038&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">data-armory-embed</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;specializations&#34;</span> <span style="color:#a6e22e">data-armory-ids</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;5&#34;</span> <span style="color:#a6e22e">data-armory-5-traits</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;2016,2053,2057&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><div data-armory-embed="specializations" data-armory-ids="30" data-armory-30-traits="1069,1016,1064"></div>
+<div data-armory-embed="specializations" data-armory-ids="25" data-armory-25-traits="978,964,1038"></div>
+<div data-armory-embed="specializations" data-armory-ids="5" data-armory-5-traits="2016,2053,2057"></div>
+<p>如果这个页面有激战 2 的技能加载，其底部最后一行或倒数第二行不需要有如下代码：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">async</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;//unpkg.com/armory-embeds@0/armory-embeds.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+
+&lt;<span style="color:#f92672">script</span>&gt;
+  document.<span style="color:#a6e22e">GW2A_EMBED_OPTIONS</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">lang</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;zh&#34;</span>,
+  };
+&lt;/<span style="color:#f92672">script</span>&gt;
+</code></pre></div>
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+		<figure class="authorbox__avatar">
+			<img alt="总之就是非常柠檬 avatar" src="/voidpin/images/TsukuyomiTsukasa.png" class="avatar" height="90" width="90">
+		</figure>
+		<div class="authorbox__header">
+			<span class="authorbox__name"> </span>
+		</div>
+		<div class="authorbox__description">
+			<p><a href="https://space.bilibili.com/18036870" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/badge/Bilibili-%E6%80%BB%E4%B9%8B%E5%B0%B1%E6%98%AF%E9%9D%9E%E5%B8%B8%E6%9F%A0%E6%AA%AC-ff69b4?style=flat&amp;labelColor=00a1d6&amp;logo=bilibili&amp;logoColor=ff69b4" alt=""></a></p>
+<p>一个不明真相的吃瓜群众，最近正在收购柠檬。IGN: Saber Lily.1960</p>
+
+		</div>
+	
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/contribute/obs-studio/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;上一篇</span>
+			<p class="pager__title">OBS 录屏教程</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 voidpin.com | All trademarks and copyrights on this site are owned by their respective owners. 未经授权禁止转载、摘编、复制或建立镜像.
+			<span class="footer__copyright-credits">基于 <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> 引擎和 <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> 主题</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/voidpin/js/custom.js"></script><script async src="/npm/armory-embeds-voidpin@0.4.3/armory-embeds.js"></script>
+<script>
+  document.GW2A_EMBED_OPTIONS = {
+    lang: "zh",
+  };
+</script>
+<script src="/npm/vanilla-back-to-top@7.2.1/vanilla-back-to-top.min.js"></script>
+<script>
+  addBackToTop({
+	diameter: 56,
+	backgroundColor: 'rgb(255, 82, 82)',
+	textColor: '#fff'
+  })
+</script>
+<script>
+	window.onload = function() {
+		document.body.addEventListener('mousedown', ev => {
+			const a = event.target.closest('a');
+			if (a && a.hasAttribute('href') && a.getAttribute('href').toString().includes('guildwars2.com/wiki/Special:Search/')) {
+				const b = a.parentNode.parentNode.parentNode;
+				if (b.hasAttribute('data-armory-ids')) {
+					const c = b.getElementsByClassName('gw2a--M9jBV');
+					var wikiid = 0;
+					if (c.length > 1) {
+						for (let i = 0; i < c.length; i++) {
+							if (c[i].contains(a)) {
+								wikiid = b.getAttribute('data-armory-ids').toString().split(',')[i];
+								break;
+							}
+						}
+					} else {
+						wikiid = b.getAttribute('data-armory-ids').toString().replace(',', '');
+					}
+					a.href = 'https://wiki.guildwars2.com/wiki/Special:RunQuery/Search_by_id?title=Special%3ARunQuery%2FSearch_by_id&pfRunQueryFormName=Search+by+id&Search+by+id%5Bid%5D=' + wikiid;
+				};
+			}
+		});
+	}	
+</script>
+</body>
+</html>
