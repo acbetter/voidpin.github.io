@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>常用工具 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/tools/</link>
+    <link>https://archive.voidpin.com/tools/</link>
     <description>Recent content in 常用工具 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event Timer 事件时间表</title>
-      <link>/tools/event-timer/</link>
+      <link>https://archive.voidpin.com/tools/event-timer/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tools/event-timer/</guid>
+      <guid>https://archive.voidpin.com/tools/event-timer/</guid>
       <description>如需查看完整的事件时间表，请访问 官方维基事件时间表 或者在游戏聊天窗内输入命令 /wiki et。
 .etwrapper {font-size: 14px;color: #333;position: relative;padding-top: 1em;padding-bottom: 2em;}.etwrapper  h1 {margin: 0;}.etwrapper  h1,.etwrapper  h2 {font-size: 2.5em;}.etwrapper  h2 {font-size: 1.5em;font-weight: bold;width: 100%;margin: 0.25em 0;color: black;}.etline {position: absolute;height: 100%;border-left: 2px solid red;z-index: 400;top: 0;transition: left 1s ease-in-out;}.</description>
     </item>
     
     <item>
       <title>激战2 各服务器 每小时击杀数据统计</title>
-      <link>/tools/wvw-server-kdr/</link>
+      <link>https://archive.voidpin.com/tools/wvw-server-kdr/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tools/wvw-server-kdr/</guid>
+      <guid>https://archive.voidpin.com/tools/wvw-server-kdr/</guid>
       <description>Guild Wars 2 WvW Server Kill/Death(KDR) Per Hour by Saber Lily.1960
 Open source on https://github.com/acbetter/gw2-kdr
 Select Time Zone (UTC offset)UTC−12:00, YUTC−11:00, XUTC−10:00, WUTC−09:30, V† --UTC−09:00, VUTC−08:00, U (USA Pacific Time)UTC−07:00, TUTC−06:00, S (USA Central Time)UTC−05:00, R (USA Eastern Time)UTC−04:00, QUTC−03:30, P† --UTC−03:00, PUTC−02:00, OUTC−01:00, NUTC±00:00, ZUTC+01:00, A (Central European Time)UTC+02:00, BUTC+03:00, C (Russia Moscow Time)UTC+03:30, C† --UTC+04:00, DUTC+04:30, D† --UTC+05:00, EUTC+05:30, E† --UTC+05:45, E* --UTC+06:00, FUTC+06:30, F† --UTC+07:00, GUTC+08:00, H (China)UTC+08:45, H* --UTC+09:00, I (Japan, SouthKorea)UTC+09:30, I† (Australian Central Standard Time) --UTC+10:00, KUTC+10:30, K† --UTC+11:00, LUTC+12:00, MUTC+12:45, M* --UTC+13:00, M†UTC+14:00, M†{{ matchID.</description>

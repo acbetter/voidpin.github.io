@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>新手上路 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/tutorials/</link>
+    <link>https://archive.voidpin.com/tutorials/</link>
     <description>Recent content in 新手上路 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>服务器选择与转服</title>
-      <link>/tutorials/world-selection/</link>
+      <link>https://archive.voidpin.com/tutorials/world-selection/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/world-selection/</guid>
+      <guid>https://archive.voidpin.com/tutorials/world-selection/</guid>
       <description>1. Start 101 2. Intro 服务器机制介绍  2.1. Home World 家园世界 2.2. Region 地区 2.3. Megaserver 超级服务器   3. Server Selection 服务器如何选择 4. Transfer 转服  4.1. Free Transferring 免费转服      部分内容引用自 http://gw2.huijiwiki.com/wiki/%E4%B8%96%E7%95%8C。
  1. Start 101 对于 PvE/PvP 玩家，服务器只有两个划分，一个是美服，另一个是欧服。各区域内的小服务器可以相互跨服组队玩耍。
 对于 WvW 战场玩家，各区域内的小服务器则相互敌对。请谨慎选择服务器，不同服务器的活跃时段、强弱各不相同。
@@ -23,10 +23,10 @@
     
     <item>
       <title>如何快速省钱地冲副职业（仅限欧服/美服）</title>
-      <link>/tutorials/crafting/</link>
+      <link>https://archive.voidpin.com/tutorials/crafting/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/crafting/</guid>
+      <guid>https://archive.voidpin.com/tutorials/crafting/</guid>
       <description>1. Crafting 制作简介  1.1. Crafting disciplines 制作学科 1.2. Materials 材料   2. Crafting experience modifiers 制作经验加成 3. Level Up 怎样冲制作 1-400 及 400-500   1. Crafting 制作简介 Crafting 工艺/制作（副职业） 可以允许你将各类材料制作成物品。副职业共有 9 种制作。
 本篇内容主要搬运官方 Wiki，并添加了一些个人理解。完整内容请查阅官方维基 Wiki - Crafting。
 如果你打算在欧服/美服冲制作，请不要看国服攻略，请不要看国服攻略，请不要看国服攻略，重要的事情说三遍！！！
@@ -36,10 +36,10 @@
     
     <item>
       <title>专精一览</title>
-      <link>/tutorials/mastery/</link>
+      <link>https://archive.voidpin.com/tutorials/mastery/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/mastery/</guid>
+      <guid>https://archive.voidpin.com/tutorials/mastery/</guid>
       <description>来源：https://wiki.guildwars2.com/wiki/Mastery
 所有专精点获取见： https://wiki.guildwars2.com/wiki/Mastery_point_unlocks
  在下表中， ★ 标记 表示应该优先升级的专精， ▲ 标记 表示比较重要但是优先级稍低的专精，可以考虑在之后提升。
@@ -48,10 +48,10 @@
     
     <item>
       <title>新手常见问题</title>
-      <link>/tutorials/faq/</link>
+      <link>https://archive.voidpin.com/tutorials/faq/</link>
       <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/faq/</guid>
+      <guid>https://archive.voidpin.com/tutorials/faq/</guid>
       <description>1. 掉落的装备和未鉴定装备怎么处理 2. 世界动态哪些值得买 3. Meta事件给的宝箱选什么 4. 如何获得便宜的 20 格背包 5. 便宜的增幅剂从哪里获得 6. 待续  1. 掉落的装备和未鉴定装备怎么处理  参考：https://fast.farming-community.eu/open-world/unid-gear
  基于上述网站上的大数据，并考虑 时间成本，将 、 和  全部在拍卖行出售是最优的选择。
 对于其他的装备（包括已鉴定的装备），应该按照以下原则处理：
@@ -66,10 +66,10 @@
     
     <item>
       <title>CDKEY 游戏资料片激活码购买</title>
-      <link>/tutorials/cdkey/</link>
+      <link>https://archive.voidpin.com/tutorials/cdkey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/cdkey/</guid>
+      <guid>https://archive.voidpin.com/tutorials/cdkey/</guid>
       <description>1. 账号注册 2. 游戏下载 3. 游戏资料片购买  3.1. 游戏资料片介绍 3.2. 资料片版本选择 3.3. 资料片激活码 CDKEY 购买渠道   4. 如何激活你的 CDKEY 5. 动态世界说明 6. 新手上路  CDKEY 就是激活码。
  1. 账号注册 打开官网链接：https://account.arena.net/register 进行注册。
   依次填写： 注册邮箱、密码、再次输入密码 和 账号名称。输入时请不要开启任何非英文输入法。
@@ -83,19 +83,19 @@
     
     <item>
       <title>基础机制入门</title>
-      <link>/tutorials/gamebasic-terms/</link>
+      <link>https://archive.voidpin.com/tutorials/gamebasic-terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/gamebasic-terms/</guid>
+      <guid>https://archive.voidpin.com/tutorials/gamebasic-terms/</guid>
       <description>1. 常用游戏术语 2. 什么是 CC 和蔑视条  2.1. 什么是 CC  2.1.1. 硬 CC 2.1.2. 软 CC   2.2. 什么是蔑视条 2.3. 我什么时候该 CC 2.4. 我如何更快地 CC   3. 什么是组合技  3.1. 组合技区域和组合终结技 3.2. 组合技效果 3.3. 有效使用组合技 3.4. 常用的组合技效果   4. 什么是 Build  4.1. 什么是 Meta Builds 4.2. 什么是技能循环 Rotation   5. 致谢  1. 常用游戏术语 术语解释Add(s) /Mob(s)小怪Aggro拉怪：吸引敌人的注意，使他们进入战斗状态来攻击你。AoE区域性效果：一般指群体伤害。Block格挡：某些技能或者  圣盾 可以使你抵消即将到来的攻击。CC群体控制 Crowd Control： 指使用控制类技能打破敌人的 蔑视条 Defiance Bars  ，或者控制没有 蔑视条 Defiance Bars  的敌人。  CC 效果分为两种 ： &#34;</description>
     </item>
     
     <item>
       <title>泰瑞亚中心专精攻略</title>
-      <link>/tutorials/red-mastery-points/</link>
+      <link>https://archive.voidpin.com/tutorials/red-mastery-points/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/red-mastery-points/</guid>
+      <guid>https://archive.voidpin.com/tutorials/red-mastery-points/</guid>
       <description>在刚开始游戏时，新手往往会为如何获取红专精而发愁，因为解锁自动拾取以及碎层所有的专精都需要红色专精点数（见 专精一览）。需要优先升级的“契约团指挥官”和“碎层协调”一共需要 30 点红色专精。
 本文将列举出大部分红色专精的获取方式，并且指出那些容易获取的红色专精。
 记住，你可以搜索成就的中文名称来查找攻略！
@@ -106,10 +106,10 @@
     
     <item>
       <title>游戏日常攻略</title>
-      <link>/tutorials/daily/</link>
+      <link>https://archive.voidpin.com/tutorials/daily/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/daily/</guid>
+      <guid>https://archive.voidpin.com/tutorials/daily/</guid>
       <description>每日签到奖励说明 每日日常的奖励  为什么我要做 PVP 或/和 WVW 日常并积攒奖励药剂 奖励分支如何选择   有哪些容易完成的日常  PVE PVP WVW    每日签到奖励说明 每日登录游戏，可以获取 签到奖励，每28天一循环。从中可以获取 桂冠 作为奖励，这也是 桂冠 的唯一来源。
 完整签到奖励一览
 天数奖励内容1&amp;nbsp;神秘硬币包2 神秘硬币2&amp;nbsp;桂冠包1桂冠3&amp;nbsp;幸运精华包200 幸运精华4&amp;nbsp;黑狮货物箱1 宝石商店 物品5&amp;nbsp;制作材料包制作材料6&amp;nbsp;经验包1 知识之书7&amp;nbsp;桂冠包10桂冠8&amp;nbsp;神秘硬币包4 神秘硬币9&amp;nbsp;桂冠包2桂冠10&amp;nbsp;幸运精华包400 幸运精华11&amp;nbsp;黑狮货物箱1 宝石商店 物品12&amp;nbsp;大量制作材料包制作材料13&amp;nbsp;经验包2 知识之书14&amp;nbsp;特异装备箱1 账号绑定的 特异品质 装备15&amp;nbsp;神秘硬币包6 神秘硬币16&amp;nbsp;桂冠包3桂冠17&amp;nbsp;幸运精华包600 幸运精华18&amp;nbsp;黑狮货物箱1宝石商店物品19&amp;nbsp;庆典包1 庆典增幅剂20&amp;nbsp;经验包3 知识之书21&amp;nbsp;桂冠包15桂冠22&amp;nbsp;神秘硬币包8 神秘硬币23&amp;nbsp;桂冠包4桂冠24&amp;nbsp;幸运精华包800 幸运精华25&amp;nbsp;黑狮货物箱1 宝石商店 物品26&amp;nbsp;幻化力包3幻化力27&amp;nbsp;经验包4 知识之书28&amp;nbsp;忠诚宝箱具体收益查看：忠诚宝箱收益一览。</description>
@@ -117,19 +117,19 @@
     
     <item>
       <title>游戏设置</title>
-      <link>/tutorials/options/</link>
+      <link>https://archive.voidpin.com/tutorials/options/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/options/</guid>
+      <guid>https://archive.voidpin.com/tutorials/options/</guid>
       <description>基础  常规设置 General Options  用户界面 User Interface 视角 Camera 战斗/移动 Combat and Movement 竞技 Competitive   操作设置&amp;amp;键位 Control Options &amp;amp;Keybinds  移动 Movement 技能 Skills 选择目标 Targeting 画面-进阶设置 Advanced Settings 其他 Miscellaneous     可选  常规设置 General Options 2  用户界面 User Interface 2 视角 Camera 2 战斗/移动 Combat and Movement 2 竞技 Competitive 2 同步下载 Streaming 小组 Groups 坐骑 Mounts   操作设置&amp;amp;键位 Control Options &amp;amp;Keybinds 2  选择目标 Targeting 2 团队 Squad     致谢   请在游戏内按 ESC 打开设置面板，一边阅读本文一边按照自己的需要进行设置。</description>
     </item>
     
     <item>
       <title>萌新必读</title>
-      <link>/tutorials/starting-guide/</link>
+      <link>https://archive.voidpin.com/tutorials/starting-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/starting-guide/</guid>
+      <guid>https://archive.voidpin.com/tutorials/starting-guide/</guid>
       <description>1. 初识游戏  1.1. 游戏入门 1.2. 服务器选择 1.3. 种族选择 1.4. 职业选择  1.4.1. PVE 首发职业评分 1.4.2. 职业介绍   1.5. 技能&amp;amp;特长  1.5.1. 技能点 1.5.2. 什么是特性和特长 1.5.3. 资料片特长     2. 开始游戏  2.1. 准备工作 2.2. 跑图和升级 2.3. 如何加快升级速度 2.4. 采集 2.5. 新手小技巧  2.5.1. 银行 材料仓库和拍卖行 2.5.2. 拍卖行和宝石商城 2.5.3. 使用存放材料按钮 2.5.4. 右键使用拆解器 2.5.5. 学会使用 PVP 大厅和 WVW 战场 2.5.6. 学会使用工具网站     3. 我80级了可以做什么  3.</description>
     </item>
     

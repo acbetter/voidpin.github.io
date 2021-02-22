@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WvW on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/wvw/</link>
+    <link>https://archive.voidpin.com/wvw/</link>
     <description>Recent content in WvW on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/wvw/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/wvw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>世界之战：入门</title>
-      <link>/wvw/wvw-intro/</link>
+      <link>https://archive.voidpin.com/wvw/wvw-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/wvw/wvw-intro/</guid>
+      <guid>https://archive.voidpin.com/wvw/wvw-intro/</guid>
       <description>1. 第一部分：据点目标和地图控制基础  1.1. Reporting Enemy Movement 报告敌方动向 1.2. Supply 补给   2. 第二部分：据点防御  2.1. Scouting 侦察 2.2. Sieging Up 器械防御 2.3. Upgrading 据点升级 2.4. Tactics and Tactivators 战术和战术工具   3. 第三部分：加入团队  3.1. Builds 配装 3.2. Voice Chat 语音聊天 3.3. Solo/Small Group 单走/小型团队 3.4. Escorting Dolyaks 护送牦牛   4. 第四部分：攻占敌方据点  4.1. Offensive Siege 进攻性占领 4.2. Besieging an Objective 围城/攻城 4.3. Killing the Lord 击杀领主   5.</description>
     </item>
     

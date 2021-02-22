@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snowcrows on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/snowcrows/</link>
+    <link>https://archive.voidpin.com/snowcrows/</link>
     <description>Recent content in Snowcrows on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/snowcrows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/snowcrows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alacrity Renegade Raid Build</title>
-      <link>/snowcrows/builds/revenant/renegade/alacrity/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/revenant/renegade/alacrity/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/revenant/renegade/alacrity/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/revenant/renegade/alacrity/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/revenant/renegade/alacrity
   Overview 概述 Alacrigade 敏捷龙魂使 与 Quickness Firebrand 一起组成 Firebrigade 消防队组合，使用  10 人提供 Alacrity 敏捷。
@@ -23,10 +23,10 @@ Alacrigade 敏捷龙魂使 是游戏中拥有最多功能性的职业之一，�
     
     <item>
       <title>Benchmarks</title>
-      <link>/snowcrows/benchmarks/</link>
+      <link>https://archive.voidpin.com/snowcrows/benchmarks/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/benchmarks/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/benchmarks/</guid>
       <description>disclaimer todo
 Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  Todo BuffsGolemVale Guardian 山谷守护者Gorseval 多变藤戈瑟瓦尔 The MultifariousSabetha 破坏者萨蓓莎 The SaboteurSlothasor 斯洛萨索Matthias 马蒂亚斯 GabrelKeep Construct 要塞构造体Xera 琦拉Cairn The Indomitable 不屈的凯玲Mursaat Overseer 灭世魔监工Samarog 萨玛洛格Deimos 戴莫斯Soulless Horror 无魂惧魔Dhuum 德姆Conjured Amalgamate 咒术融合体Twin Largos 蝶翼人双子Qadim 卡迪姆Cardinal Sabir 基石守护者萨比尔Cardinal Adina 基石守护者艾迪娜Qadim 卡迪姆 The PeerlessGolem  08/07/2020 Patch Update | Benchmarks ✔ | Builds ✔ | Raid Guides ✔ | Team Compositions ✔ |  Gear Optimizer ✔Large HitboxPower Bolt to the Heart 39587Avg: 39100Power Fresh Air 38658Avg: 38200Power Virtues 38448Avg: 38000Power 38372Avg: 37900Condition 38130Avg: 37500Power 38069Avg: 37400Invocation Shiro 38048Avg: 37700Invocation Kalla 38011Avg: 37500Devastation 36445Avg: 36200Power Sword 35132Avg: 34900Power Scepter 33313Avg: 33150Small HitboxPower 42943Avg: 42500Rifle 39044Avg: 38700Power Bolt to the Heart 38483Avg: 38000Power Greatsword 38380Avg: 37500Condition 38379Avg: 38000Power Sword 38143Avg: 37600Power Rifle 37783Avg: 37200Power Fresh Air 37776Avg: 37300Power Longbow 37371Avg: 37000Condition 37043Avg: 36500Power 36836Avg: 36200Condition with Allies 36732Avg: 36300Condition 36422Avg: 36100Condition 35625Avg: 35050Power 35070Avg: 34600Power 34302Avg: 33800Condition Banner 34112Avg: 33500Power Banner Strength 33349Avg: 32800Condition without Allies 32796Avg: 32400Power 30652Avg: 30100Power Banner Tactics 29191Avg: 28500Condition 29188Avg: 29000Buffs Boons &amp;amp; Specific Professions Enhancements Boons Most organized groups can maintain the following 7 boons, so we benchmark with those same 7 boons.</description>
@@ -34,10 +34,10 @@ Beta Note: 此页面还在翻译中，样式可能还会有所调整。
     
     <item>
       <title>Boon Daredevil Raid Build</title>
-      <link>/snowcrows/builds/thief/daredevil/boon/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/thief/daredevil/boon/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/thief/daredevil/boon/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/thief/daredevil/boon/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/thief/daredevil/boon
   Overview 概述 Boon Daredevil 增益独行侠 是一个用于代替 Boon Thief 增益盗贼 的更高输出的选择。其输出循环与 Power Daredevil 直伤独行侠 相同，只增加了 Detonate Plasma 等离子引爆 的使用。
@@ -49,10 +49,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Boon Herald Raid Build</title>
-      <link>/snowcrows/builds/revenant/herald/boon/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/revenant/herald/boon/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/revenant/herald/boon/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/revenant/herald/boon/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/revenant/herald/boon
   Overview 概述 Boon Herald 增益预告者 提供多种增益并可以使你的增益持续时间保持完美！
@@ -65,10 +65,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Boon Thief Raid Build</title>
-      <link>/snowcrows/builds/thief/thief/boon/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/thief/thief/boon/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/thief/thief/boon/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/thief/thief/boon/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/thief/thief/boon
   Overview 概述 Boon Thief 增益盗贼 是一个针对特定首领战的极其强大的配装。其核心就是使用 Stolen Skill 顺手牵羊 获得 Detonate Plasma 等离子引爆。Stolen Skill 顺手牵羊 可以为整个团队提供除了 Alacrity 敏捷 以外所有增益。
@@ -79,10 +79,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Banner Berserker Raid Build</title>
-      <link>/snowcrows/builds/warrior/berserker/condition-banner/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/condition-banner/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/warrior/berserker/condition-banner/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/condition-banner/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/warrior/berserker/condition%20banner
   Overview 概述 Condition Banner Berserker 症状插旗狂战士 是一个提供双旗帜的强大配装，为你的队友带来强力增益，同时提供相当不错的输出。
@@ -95,10 +95,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Berserker Raid Build</title>
-      <link>/snowcrows/builds/warrior/berserker/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/warrior/berserker/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/warrior/berserker/condition
   Overview 概述 Condition Berserker 症状狂战士 是一个强大的、以症状为基础的配装。
@@ -111,10 +111,10 @@ Geomancy Sigil    Viper‘s Torch</description>
     
     <item>
       <title>Condition Boon Chronomancer Raid Build</title>
-      <link>/snowcrows/builds/mesmer/chronomancer/condition-boon/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/condition-boon/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/mesmer/chronomancer/condition-boon/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/condition-boon/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/mesmer/chronomancer/condition%20boon
   Overview 概述 Condition Boon Chronomancer 症状增益时空术士 担任与 Power Boon Chronomancer 直伤增益时空术士 相同的职责。该配装可以产生常驻的 Quickness 急速 和 Alacrity 敏捷。
@@ -124,10 +124,10 @@ Condition Boon Chronomancer 症状增益时空术士 对于初学者来说有陡
     
     <item>
       <title>Condition Chronomancer Raid Build</title>
-      <link>/snowcrows/builds/mesmer/chronomancer/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/mesmer/chronomancer/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/mesmer/chronomancer/condition
   Overview 概述 Condition Chronomancer 症状时空术士 施加成吨的 Confusion 困惑 并且可以与 Condition Mirage 症状幻象术士 一教高下。
@@ -139,10 +139,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Druid Raid Build</title>
-      <link>/snowcrows/builds/ranger/druid/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/ranger/druid/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/ranger/druid/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/ranger/druid/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/ranger/druid/condition
   Overview 概述 Condition Druid 症状德鲁伊 已经不再是最佳选择，但它仍然可以在多个首领战中在提供足量治疗的同时提供不错的输出。该配装应该在使用双 Druid 德鲁伊 配置时作为副 Druid 德鲁伊 使用。
@@ -153,10 +153,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Firebrand Raid Build</title>
-      <link>/snowcrows/builds/guardian/firebrand/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/guardian/firebrand/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/guardian/firebrand/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/guardian/firebrand/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/guardian/firebrand/condition
   Overview 概述 Condition Firebrand 症状燃火者 以 Burning 的形式提供非常不错的爆发输出。
@@ -168,10 +168,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Holosmith Raid Build</title>
-      <link>/snowcrows/builds/engineer/holosmith/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/engineer/holosmith/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/engineer/holosmith/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/engineer/holosmith/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/engineer/holosmith/condition
   Overview 概述 Condition Holosmith 症状全息师 是一个强大的以症状为基础的输出职业，提供一定的高爆发。
@@ -183,10 +183,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Mirage Raid Build</title>
-      <link>/snowcrows/builds/mesmer/mirage/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/mesmer/mirage/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/mesmer/mirage/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/mesmer/mirage/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/mesmer/mirage/condition
   Overview 概述 Condition Mirage 症状幻象术士 是一个高额症状输出，专注于施加 Confusion 困惑、Torment 折磨 和 Bleeding 流血。
@@ -197,10 +197,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Quickness Firebrand Raid Build</title>
-      <link>/snowcrows/builds/guardian/firebrand/condition-quickness/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/guardian/firebrand/condition-quickness/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/guardian/firebrand/condition-quickness/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/guardian/firebrand/condition-quickness/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/guardian/firebrand/condition%20quickness
   Overview 概述 Condition Quickness Firebrand 症状急速燃火者 用于在 Firebrigade 消防队组合 和其他混合组合中替代 Support Chronomancer 辅助时空术士。拥有中等的伤害并能持续施加 Quickness 急速、Aegis 圣盾 和 Fury 激怒，Condition Quickness Firebrand 症状急速燃火者 对于所有水平的队伍而言都是一个有竞争力的选择。  该配装与 Alacrigade 敏捷龙魂使是最佳搭档，因为它无法 1:1 地代替 Support Chronomancer 辅助时空术士。虽然失去了 Support Chronomancer 辅助时空术士 的功能性，但你获得了来自 Firebrand 独特的圣书技能的功能性来应对紧迫的情况从而帮助团队。
@@ -210,10 +210,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Renegade Raid Build</title>
-      <link>/snowcrows/builds/revenant/renegade/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/revenant/renegade/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/revenant/renegade/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/revenant/renegade/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/revenant/renegade/condition
   Overview 概述 Condition Renegade 症状龙魂使 是一个极其强大的配装，拥有多种团队增益，可以提供 ，一定的 Vulnerability 易伤 以及必要时的 CC。
@@ -226,10 +226,10 @@ Devastation Variant 毁灭分支点击复制代码 Raid Viability 团队副本�
     
     <item>
       <title>Condition Scourge Raid Build</title>
-      <link>/snowcrows/builds/necromancer/scourge/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/necromancer/scourge/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/necromancer/scourge/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/necromancer/scourge/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/necromancer/scourge/condition
   Overview 概述 Condition Scourge 症状灾厄师 是一个相对简单的配装但是由于  管理和定位的要求，需要很多技巧来精通。掌握技能的关键是理解你技能的优先级顺序以及它们的优先级为何如此。
@@ -242,10 +242,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Soulbeast Raid Build</title>
-      <link>/snowcrows/builds/ranger/soulbeast/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/ranger/soulbeast/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/ranger/soulbeast/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/ranger/soulbeast/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/ranger/soulbeast/condition
   Overview 概述 Condition Soulbeast 症状魂兽师 是一个以症状为基础的输出职业。该配装拥有简单的循环，很快可以上手，装备也相对容易获取。
@@ -258,10 +258,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Tempest Raid Build</title>
-      <link>/snowcrows/builds/elementalist/tempest/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/elementalist/tempest/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/elementalist/tempest/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/elementalist/tempest/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/elementalist/tempest/condition
   Overview 概述 Condition Tempest 症状暴风使 提供极其可靠的输出，而且是学习 Condition Weaver 症状编织者之前的优秀选择。
@@ -273,10 +273,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Condition Weaver Raid Build</title>
-      <link>/snowcrows/builds/elementalist/weaver/condition/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/elementalist/weaver/condition/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/elementalist/weaver/condition/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/elementalist/weaver/condition/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/elementalist/weaver/condition
   Overview 概述 Condition Weaver 症状编织者 是目前游戏内最难的循环之一，但也几乎是拥有最高症状爆发的配装。
@@ -289,10 +289,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Hand Kite Herald Raid Build</title>
-      <link>/snowcrows/builds/revenant/herald/hand-kite/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/revenant/herald/hand-kite/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/revenant/herald/hand-kite/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/revenant/herald/hand-kite/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/revenant/herald/hand%20kite
   Overview 概述 Herald Hand Kite 鬼手风筝预告者 是一个非常有趣的风筝配装。
@@ -305,10 +305,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Hand Kite Soulbeast Raid Build</title>
-      <link>/snowcrows/builds/ranger/soulbeast/hand-kite/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/ranger/soulbeast/hand-kite/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/ranger/soulbeast/hand-kite/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/ranger/soulbeast/hand-kite/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/ranger/soulbeast/hand%20kite
   Overview 概述 Soulbeast Hand Kite 鬼手风筝魂兽师 是一个极其安全的配装，用于在 Deimos 戴莫斯 战斗中风筝鬼手。
@@ -320,10 +320,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Heal Druid Raid Build</title>
-      <link>/snowcrows/builds/ranger/druid/heal/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/ranger/druid/heal/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/ranger/druid/heal/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/ranger/druid/heal/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/ranger/druid/heal
   Overview 概述 Heal Druid 治疗德鲁伊 是你刚玩这个职业时的选择。其学习曲线非常平缓，容易上手；然而，如果是刚开始玩 Heal Druid 治疗德鲁伊 仍然需要学习一些基础知识。
@@ -336,10 +336,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Heal Firebrand Raid Build</title>
-      <link>/snowcrows/builds/guardian/firebrand/heal/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/guardian/firebrand/heal/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/guardian/firebrand/heal/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/guardian/firebrand/heal/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/guardian/firebrand/heal
   Overview 概述 Heal Firebrand 治疗燃火者 提供多样的增益、治疗和功能性。
@@ -352,10 +352,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Heal Renegade Raid Build</title>
-      <link>/snowcrows/builds/revenant/renegade/heal/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/revenant/renegade/heal/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/revenant/renegade/heal/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/revenant/renegade/heal/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/revenant/renegade/heal
   Overview 概述 Heal Renegade 治疗龙魂使 为你的团队提供常驻 Alacrity 敏捷 并为小队提供一些 Might 威能 。该配装应该总是作为 Druid 德鲁伊 的第二治疗使用；后者作为主要治疗角色提供 Fury 激怒 和其他进攻性团队增益。
@@ -367,10 +367,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Heal Scourge Raid Build</title>
-      <link>/snowcrows/builds/necromancer/scourge/heal/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/necromancer/scourge/heal/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/necromancer/scourge/heal/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/necromancer/scourge/heal/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/necromancer/scourge/heal
   Overview 概述 Heal Scourge 治疗灾厄师 与其他的辅助配装不同。它除了少量的 Might 威能 和 Regeneration 再生 几乎不提供增益，而且直接治疗很低。因此它总是作为第二治疗者登场。
@@ -381,10 +381,10 @@ Heal Scourge 治疗灾厄师 容易配备装备，也容易使用，但你需要
     
     <item>
       <title>Heal Scrapper Raid Build</title>
-      <link>/snowcrows/builds/engineer/scrapper/heal/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/engineer/scrapper/heal/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/engineer/scrapper/heal/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/engineer/scrapper/heal/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/engineer/scrapper/heal
   Overview 概述 Heal Scrapper 治疗机械师 可以在团队副本中作为第二治疗者使用，拥有大量爆发治疗和单纯的减伤，但遗憾的是没有进攻性增益。
@@ -397,10 +397,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Heal Tempest Raid Build</title>
-      <link>/snowcrows/builds/elementalist/tempest/heal/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/elementalist/tempest/heal/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/elementalist/tempest/heal/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/elementalist/tempest/heal/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/elementalist/tempest/heal
   Overview 概述 Heal Tempest 治疗暴风使 提供持续治疗和爆发治疗，同时提供多种增益。遗憾的是，该配装完全不提供任何进攻性增益，意味着它并不属于 Meta。
@@ -412,10 +412,10 @@ Concentration Sigil    Harrier‘s Warhorn</description>
     
     <item>
       <title>Power Banner Berserker Raid Build</title>
-      <link>/snowcrows/builds/warrior/berserker/power-banner/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/power-banner/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/warrior/berserker/power-banner/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/power-banner/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/warrior/berserker/power%20banner
   Overview 概述 Power Banner Berserker 直伤插旗狂战士 是一个循环节奏很快的配装，需要在短时间内频繁使用 。
@@ -428,10 +428,10 @@ Tactics Variant 战术分支点击复制代码 Raid Viability 团队副本适�
     
     <item>
       <title>Power Berserker Raid Build</title>
-      <link>/snowcrows/builds/warrior/berserker/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/warrior/berserker/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/warrior/berserker/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/warrior/berserker/power
   Overview 概述 Power Berserker 直伤狂战士 是一个具有无限循环的爆发配装，提供强大的持续输出和一定的清怪能力。
@@ -444,10 +444,10 @@ Impact Sigil        Berserker‘s Axe</description>
     
     <item>
       <title>Power Boon Chronomancer Raid Build</title>
-      <link>/snowcrows/builds/mesmer/chronomancer/power-boon/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/power-boon/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/mesmer/chronomancer/power-boon/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/power-boon/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/mesmer/chronomancer/power%20boon
   Overview 概述 Power Boon Chronomancer 直伤增益时空术士 是一个非常多功能的配装。大体上，你负责为 5 名玩家提供常驻的 Quickness 急速，同时一名 Alacrity Renegade 敏捷龙魂使 为整个团队提供常驻的 Alacrity 敏捷。另外 5 名玩家的 Quickness 急速 将由另一名 Power Boon Chronomancer 直伤增益时空术士 或者一名 Condition Quickness Firebrand 症状急速燃火者提供。
@@ -458,10 +458,10 @@ Dueling Focus 决斗聚能器 该分支仅在你需要  的首领战中使用。
     
     <item>
       <title>Power Chronomancer Raid Build</title>
-      <link>/snowcrows/builds/mesmer/chronomancer/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/mesmer/chronomancer/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/mesmer/chronomancer/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/mesmer/chronomancer/power
   Overview 概述 Power Chronomancer 直伤时空术士 提供高额的爆发，也能造成高额的持续伤害。该配装能够提供相当高额的 CC、闪避能力以及提供较高的个人 Might 威能、Fury 激怒 和 Alacrity 敏捷 持续时间。
@@ -473,10 +473,10 @@ Dueling Focus 决斗聚能器 该分支仅在你需要  的首领战中使用。
     
     <item>
       <title>Power Daredevil Raid Build</title>
-      <link>/snowcrows/builds/thief/daredevil/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/thief/daredevil/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/thief/daredevil/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/thief/daredevil/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/thief/daredevil/power
   Overview 概述 Power Daredevil 直伤独行侠 是一个优秀的单体和近战清怪直伤输出配装。其清怪能力来源于法杖自动攻击链、 和 。
@@ -490,10 +490,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Power Dragonhunter Raid Build</title>
-      <link>/snowcrows/builds/guardian/dragonhunter/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/guardian/dragonhunter/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/guardian/dragonhunter/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/guardian/dragonhunter/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/guardian/dragonhunter/power
   Overview 概述 Power Dragonhunter 直伤猎龙者 天然是一个直伤爆发职业。该配装非常依赖 Retaliation 反弹 来达到 100% Critical Chance 暴击率 并且来获得  增伤。输出方面，由于应对阶段性战斗的爆发能力，这是目前最好的输出职业之一；但对于长流程的战斗，其输出低于其他配装和职业。
@@ -504,10 +504,10 @@ Template Code 特性代码Radiance点击复制代码</description>
     
     <item>
       <title>Power Guardian Raid Build</title>
-      <link>/snowcrows/builds/guardian/guardian/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/guardian/guardian/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/guardian/guardian/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/guardian/guardian/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/guardian/guardian/power
   Overview 概述 Power Guardian 直伤守护者 与 Power Dragonhunter 直伤猎龙者 相比更难上手。这是因为它要求常驻 Aegis 圣盾 来获取来自  的 20% 增伤。对首领战的充分了解也是保持 Aegis 圣盾 的关键。
@@ -518,10 +518,10 @@ Power Guardian 直伤守护者 的循环简单，上手容易；但是由于保�
     
     <item>
       <title>Power Holosmith Raid Build</title>
-      <link>/snowcrows/builds/engineer/holosmith/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/engineer/holosmith/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/engineer/holosmith/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/engineer/holosmith/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/engineer/holosmith/power
   Overview 概述 Power Holosmith 直伤全息师 是一个爆发职业，并可以利用  提供常驻 Vulnerability 易伤。
@@ -535,10 +535,10 @@ Sword点击复制代码 Raid Viability 团队副本适应性 TODO 样式调整�
     
     <item>
       <title>Power Reaper Raid Build</title>
-      <link>/snowcrows/builds/necromancer/reaper/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/necromancer/reaper/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/necromancer/reaper/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/necromancer/reaper/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/necromancer/reaper/power
   Overview 概述 Power Reaper 直伤夺魂者 是一个学习和使用都很简单的配装。该配装拥有不错的爆发、大量的 CC、非常大的清怪范围和强大的施加 Vulnerability 易伤 能力。
@@ -551,10 +551,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Power Soulbeast Raid Build</title>
-      <link>/snowcrows/builds/ranger/soulbeast/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/ranger/soulbeast/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/ranger/soulbeast/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/ranger/soulbeast/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/ranger/soulbeast/power
   Overview 概述 Power Soulbeast 直伤魂兽师 是一个爆发直伤配装，并拥有一定的 CC。该配装需要牢固的肌肉记忆，因为许多技能很容易被取消；使用匕首提供更佳的持续输出，或者使用单手剑提供稍高的爆发输出。
@@ -568,10 +568,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Power Spellbreaker Raid Build</title>
-      <link>/snowcrows/builds/warrior/spellbreaker/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/warrior/spellbreaker/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/warrior/spellbreaker/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/warrior/spellbreaker/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/warrior/spellbreaker/power
   Overview 概述 Power Spellbreaker 直伤破法者 与其他 Warrior 特长相似，很容易上手但需要花费时间和努力去完全理解职业。
@@ -582,10 +582,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Power Tempest Raid Build</title>
-      <link>/snowcrows/builds/elementalist/tempest/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/elementalist/tempest/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/elementalist/tempest/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/elementalist/tempest/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/elementalist/tempest/power
   Overview 概述 Power Tempest 直伤暴风使 的学习曲线平滑，有许多小技巧来提升你的输出，是目前针对大型和中型体积目标的可靠配装。
@@ -597,10 +597,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Power Weaver Raid Build</title>
-      <link>/snowcrows/builds/elementalist/weaver/power/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/elementalist/weaver/power/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/elementalist/weaver/power/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/elementalist/weaver/power/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/elementalist/weaver/power
   Overview 概述 Power Weaver 直伤编织者 是一个学习曲线陡峭的配装，要求很快的反应来准确地执行输出循环。无限进行的循环会带来非常流畅和愉快的体验。  该配装提供非常不错的输出以及大量机动能力来帮助你处理机制；不足的是，没有远程输出能力。 Power Weaver 直伤编织者 对初学者来说比较困难，因为其循环节奏很快，并要求计算自动攻击段数。
@@ -610,10 +610,10 @@ Template Code 特性代码点击复制代码 Raid Viability 团队副本适应�
     
     <item>
       <title>Rifle Deadeye Raid Build</title>
-      <link>/snowcrows/builds/thief/deadeye/rifle/</link>
+      <link>https://archive.voidpin.com/snowcrows/builds/thief/deadeye/rifle/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/snowcrows/builds/thief/deadeye/rifle/</guid>
+      <guid>https://archive.voidpin.com/snowcrows/builds/thief/deadeye/rifle/</guid>
       <description>Benchmarks ✔ Builds ✔ Raid Guides ✔ Team Compositions ✔ Gear Optimizer ✔  Beta Note: 此页面还在翻译中，样式可能还会有所调整。
  来源：https://snowcrows.com/raids/builds/thief/deadeye/rifle
   Overview 概述 Rifle Deadeye 直伤步枪神枪手 是一个拥有极高单体输出的配装，但没有清怪能力。

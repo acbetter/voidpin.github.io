@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文件下载 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/files/</link>
+    <link>https://archive.voidpin.com/files/</link>
     <description>Recent content in 文件下载 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/files/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/files/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

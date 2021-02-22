@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/guides/</link>
+    <link>https://archive.voidpin.com/guides/</link>
     <description>Recent content on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/guides/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>冬幕节 送孤儿礼物 刷业力攻略</title>
-      <link>/guides/festivals/wintersday/earn-karma-from-orphans/</link>
+      <link>https://archive.voidpin.com/guides/festivals/wintersday/earn-karma-from-orphans/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/guides/festivals/wintersday/earn-karma-from-orphans/</guid>
+      <guid>https://archive.voidpin.com/guides/festivals/wintersday/earn-karma-from-orphans/</guid>
       <description>准备：跑图插件 - TacO 的安装与使用 准备：业力加成 - 增幅拉满 事半功倍   准备：跑图插件 - TacO 的安装与使用 为啥需要跑图插件，嘤为孤儿的位置太分散了，我根本记不住。
 而有了跑图插件，妈妈再也不用担心我会迷路了！只需要沿着路线，跑就行了，有手就行！So Easy！
 教学视频：手把手教学 人声讲解版 或 四分钟精华版
@@ -26,10 +26,10 @@
     
     <item>
       <title>GW2 Zh-CN 激战2 物品/技能翻译插件</title>
-      <link>/guides/skill-and-item-translation/</link>
+      <link>https://archive.voidpin.com/guides/skill-and-item-translation/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/guides/skill-and-item-translation/</guid>
+      <guid>https://archive.voidpin.com/guides/skill-and-item-translation/</guid>
       <description>这个插件可以把 Metabattle, Snowcrows, Discretize 等激战2攻略网站上面的英文物品/技能描述替换成中文，方便美服/欧服玩家参考。
 首先，打开你的电脑，台式也好，笔记本也罢，总之要有台电脑。
  1. 下载油猴扩展程序 Download Tampermonkey 2. 下载莉莉编写的油猴脚本 Download Script 3. 收工 End   1. 下载油猴扩展程序 Download Tampermonkey 如果你已经安装了下面列表中其中一个浏览器，请点进浏览器对应的页面，在「下载」选项卡选择 左边 的那个版本，安装。
@@ -40,20 +40,20 @@
     
     <item>
       <title>万圣节攻略</title>
-      <link>/guides/festivals/halloween/</link>
+      <link>https://archive.voidpin.com/guides/festivals/halloween/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/guides/festivals/halloween/</guid>
+      <guid>https://archive.voidpin.com/guides/festivals/halloween/</guid>
       <description>1. Achievements 成就攻略  1.1. 日常成就一览 1.2. 年度成就攻略   2. Mad King’s Labyrinth 疯王迷宫 刷包赚钱攻略  2.1. 主要魔法寻宝率增幅效果表 2.2. 推荐配装   3. 万圣节活动攻略  3.1. Ascent to Madness 狂人封神副本攻略 3.2. Mad King&#39;s Clock Tower 疯王钟楼跳跳乐演示和详解 3.3. Your Mad King says 疯王圣旨攻略     1. Achievements 成就攻略  中文：金锟万圣节成就攻略 https://www.bilibili.com/video/av34146407/ 英文：官方维基 https://wiki.guildwars2.com/wiki/Shadow_of_the_Mad_King_(achievements) 英文：Dulfy http://dulfy.net/category/gw2/holiday-festivals/halloween/  1.1. 日常成就一览  维基链接：https://wiki.guildwars2.com/wiki/Halloween_Daily
   Halloween Fright 万圣节惊吓 ： 完成5个万圣节日常成就中的3个。完成任务将增加位于万圣节成就分页下的 疯王之夜 成就的完成度。  完成 5 次 万圣节惊吓 会使你完成 疯王之夜 成就，获得 ，从中可以自选一把 鬼弥武器。每一把鬼弥武器会解锁对应的 恶魔缠身武器 的购买。</description>
     </item>
     
     <item>
       <title>实用网站</title>
-      <link>/guides/tools/useful-links/</link>
+      <link>https://archive.voidpin.com/guides/tools/useful-links/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/guides/tools/useful-links/</guid>
+      <guid>https://archive.voidpin.com/guides/tools/useful-links/</guid>
       <description>英文网站  数据库 查看Meta事件、世界Boss时间 职业配装 Builds 成就攻略 功能性网站  副职业升级   GW2 Timer 使用攻略  查看中文 查看你账号     中文网站  中文数据库 中文事件时间表 中文成就攻略 中文其他    英文网站 数据库  官方维基 : 最全最正式的官方数据库，你想知道关于激战 2 的一切；你也可以在游戏聊天窗中输入 /wiki 直接跳转。  查看Meta事件、世界Boss时间   维基事件时间表；你也可以在游戏聊天窗中输入 /wiki et 直接跳转。
   GW2 Timer：除了查看时间表，还可以查看个人账号内的所有资料，并支持网页版中文界面；
   职业配装 Builds  Metabattle：综合性的 Build 网站，包含 野外（Open World）、迷雾碎层和地下城（Fractal &amp;amp;Dungeon）、团队副本（Raid）、战场（WVW） 和 竞技（Conquest &amp;amp;PvP） 全方位覆盖的各类职业配装 Builds，但是在专业性方面稍逊于下面几个网站； Discretize(DT)：欧服顶级碎层公会 DT 创建，包含顶尖 PVE 玩家测试优化完毕的迷雾碎层 Builds，各个碎层打法以及一切碎层玩家应该了解的内容； Snow Crows(SC)：继 [QT] 之后，当前欧服顶级 Raid 公会 SnowCrows 的官方网站，包含最优的 Raid Builds，各个职业 Build 的专属攻略打法等； GodsofPvP：欧服顶尖PVP 队伍 参与制作的 PVP Builds，激战2 PVP 职业配置和打法的引领者。  成就攻略  Metabattle：Metabattle 网站上还有各类成就攻略参考，按照时间顺序更新，相当便利，是目前搜索成就攻略的最佳选择。 Dulfy：虽然由于种种原因，Dulfy停止了她个人攻略网站上关于激战 2 内容的更新，但是作为曾经最全最强大的激战2 成就攻略网站，它在 2019 年 5 月之前的大量高价值成就攻略仍然可以使用。  功能性网站   Efficiency：综合性的个人工具网站，提供查看账号内仓库、材料、角色各类物品价值，搜索道具位置，计算制造所需成本、罗列材料清单等等，功能丰富而强大。</description>
@@ -61,10 +61,10 @@
     
     <item>
       <title>供给官徽记兑换指南</title>
-      <link>/guides/provisioner-token/</link>
+      <link>https://archive.voidpin.com/guides/provisioner-token/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/guides/provisioner-token/</guid>
+      <guid>https://archive.voidpin.com/guides/provisioner-token/</guid>
       <description>1. 什么是供给官徽记 2. 这篇指南会告诉你什么 3. 计算依据  3.1. 使用方法 3.2. 其他物品的兑换   4. 结论  1. 什么是供给官徽记 PVE 传奇护甲： 完美特使护甲 的每一个部件都需要 1 份 ；
 每 1 份  的制作需要 1 个  （50 个 兑换）。
  在特定的 NPC 商人处用某些武器或者物品兑换。
@@ -78,10 +78,10 @@
     
     <item>
       <title>事件时间表</title>
-      <link>/guides/tools/event-timers/</link>
+      <link>https://archive.voidpin.com/guides/tools/event-timers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guides/tools/event-timers/</guid>
+      <guid>https://archive.voidpin.com/guides/tools/event-timers/</guid>
       <description>维基   官方维基事件时间表
 你也可以在游戏聊天窗中输入 /wiki et 直接跳转。
   GW2 Timer  GW2 Timer  中文事件时间表   本站事件时间表
@@ -92,10 +92,10 @@
     
     <item>
       <title>必备插件</title>
-      <link>/guides/tools/addons/</link>
+      <link>https://archive.voidpin.com/guides/tools/addons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guides/tools/addons/</guid>
+      <guid>https://archive.voidpin.com/guides/tools/addons/</guid>
       <description>说明 跑图探索插件TacO  下载 使用说明   DPS监控插件-Arcdps  下载和使用   Yolomouse鼠标指针  下载&amp;amp;使用     说明 如果某个文件下载过慢，请使用本站的分流存储 文件下载
  跑图探索插件TacO  Tactical Overlay （也称为 TacO）是激战 2 的安全合法插件，是叠加在激战 2 上面的一个透明程序，与游戏界面完美集成。TacO 可以在游戏屏幕上提供标记对游戏进行引导（图标和说明文字）。
   Taco能干什么？
@@ -106,10 +106,10 @@
     
     <item>
       <title>氪金攻略</title>
-      <link>/guides/gem-store/</link>
+      <link>https://archive.voidpin.com/guides/gem-store/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guides/gem-store/</guid>
+      <guid>https://archive.voidpin.com/guides/gem-store/</guid>
       <description>必备 推荐 可选  游戏内宝石商城内包含了许多用宝石购买的道具，哪些道具能够带来极大的便利或者大幅提升你的游戏体验呢？
 下面列举一些绝大多数老玩家都会购买的道具。更多其他道具请你在查阅数据库或者询问其他玩家后，决定是否购买。
 注意：
@@ -119,10 +119,10 @@
     
     <item>
       <title>粉装获取</title>
-      <link>/guides/gearup/</link>
+      <link>https://archive.voidpin.com/guides/gearup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guides/gearup/</guid>
+      <guid>https://archive.voidpin.com/guides/gearup/</guid>
       <description>写在前面 首饰和背部  动态世界首饰 狂战士属性首饰  碎层戒指 公会任务饰品 桂冠项链   迷雾首饰  迷雾碎层 PvP WVW   团队副本首饰  其他推荐途径     护甲和武器  制作 在商人处使用特定货币购买 掉落 成就获取   升华装备的属性 升华装备的升级和重铸  戒指和背部升级 护甲和武器的属性重铸   致谢  写在前面 【点击阅读】 什么是 升华装备 ? 升华装备 是 升华 品质的装备，需要 80 级才能装备，比 特异 品质的装备多 5% 属性，与 传奇 品质装备的总属性相同。
 所有 升华装备 和 传奇装备 拥有至少 1 个灌注插槽。</description>
     </item>

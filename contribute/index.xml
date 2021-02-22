@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>投稿须知 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</title>
-    <link>/contribute/</link>
+    <link>https://archive.voidpin.com/contribute/</link>
     <description>Recent content in 投稿须知 on 激战2 虚空徽记 Beta版 | GuildWars2 VoidPin Beta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/contribute/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://archive.voidpin.com/contribute/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown 语法示例及书写规范</title>
-      <link>/contribute/markdown/</link>
+      <link>https://archive.voidpin.com/contribute/markdown/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/contribute/markdown/</guid>
+      <guid>https://archive.voidpin.com/contribute/markdown/</guid>
       <description>&lt;p&gt;A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>OBS 录屏教程</title>
-      <link>/contribute/obs-studio/</link>
+      <link>https://archive.voidpin.com/contribute/obs-studio/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/contribute/obs-studio/</guid>
+      <guid>https://archive.voidpin.com/contribute/obs-studio/</guid>
       <description>&lt;p&gt;OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.&lt;/p&gt;</description>
     </item>
     
